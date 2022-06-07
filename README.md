@@ -18,8 +18,12 @@ I'm a developer of data visualization methods, mainly in R, and an historian of 
 
 - Main web site: [datavis.ca](https://www.datavis.ca) Everything! Books, online papers, software, ...
 - Milestones Project: [datavis.ca/milestones](https://www.datavis.ca/milestones) The entire history of data visualization: timeline, images, references, ...
-- ...
+- Book web pages: 
+  + [DDAR: Discrete Data Analysis with R](http://ddar.datavis.ca/)
+  + [History of Data Visualization](https://friendly.github.io/HistDataVis/)
 
 #### R packages
 
-- Hypothesis-Error plots for multivariate linear models: [heplots]()
+- Multivariate linear models: [heplots](https://github.com/friendly/heplots); [candisc](https://github.com/friendly/candisc)
+
+- Data: [HistData](https://github.com/friendly/HistData); [Guerry](https://github.com/friendly/Guerry)
