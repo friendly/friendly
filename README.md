@@ -1,7 +1,6 @@
 <!-- badges: start --> 
 [![](https://img.shields.io/website?color=0ab9e6&style=flat-square&up_message=datavis.ca&url=https%3A%2F%2Fwww.datavis.ca)](https://www.datavis.ca)
-[![](https://img.shields.io/badge/-@datavisFriendly?style=flat-square&logo=twitter&logoColor=ffffff)](https://twitter.com/datavisFriendly)
-[![@datavisFriendly](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FdatavisFriendly)](https://twitter.com/datavisFriendly)
+[![datavisFriendly](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FdatavisFriendly)](https://twitter.com/datavisFriendly)
 
 
 <!-- badges: end --> 
@@ -32,6 +31,8 @@ I'm a developer of data visualization methods, mainly in R, and an historian of 
 
 #### R packages
 
-- Multivariate linear models: [heplots](https://github.com/friendly/heplots); [candisc](https://github.com/friendly/candisc)
+- **Multivariate linear models:** Hyphothesis-Error plots: [heplots](https://github.com/friendly/heplots); Canonical discriminant analysis: [candisc](https://github.com/friendly/candisc).
 
-- Data: [HistData](https://github.com/friendly/HistData); [Guerry](https://github.com/friendly/Guerry)
+- **Categorical data analysis:** Extensions of the `vcd` package: [vcdExtra](https://github.com/friendly/heplots).
+
+- **Data:** Datasets in the history of statistics: [HistData](https://github.com/friendly/HistData); data from Andre-Michel Guerry, _Moral Statistics of France_: [Guerry](https://github.com/friendly/Guerry); The Lahman Baseball Data archive: [Lahman](https://github.com/cdalzell/Lahman)
