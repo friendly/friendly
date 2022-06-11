@@ -1,3 +1,11 @@
+<!-- badges: start --> 
+[![](https://img.shields.io/website?color=0ab9e6&style=flat-square&up_message=datavis.ca&url=https%3A%2F%2Fwww.datavis.ca)](https://www.datavis.ca)
+[![](https://img.shields.io/badge/-@datavisFriendly?style=flat-square&logo=twitter&logoColor=ffffff)](https://twitter.com/datavisFriendly)
+[![@datavisFriendly](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FdatavisFriendly)](https://twitter.com/datavisFriendly)
+
+
+<!-- badges: end --> 
+
 ### Hi there 👋
 
 <!--
