@@ -1,9 +1,31 @@
-<!-- badges: start --> 
-[![](https://img.shields.io/website?color=0ab9e6&style=flat-square&up_message=datavis.ca&url=https%3A%2F%2Fwww.datavis.ca)](https://www.datavis.ca)
-[![datavisFriendly](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FdatavisFriendly)](https://twitter.com/datavisFriendly)
+
+<!-- icons -->
+<!--
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='30'>](https://github.com/friendly)
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='30'>](https://twitter.com/datavisFriendly)
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg' alt='stackoverflow' height='30'>](https://stackoverflow.com/users/user101089)
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='30'>](https://www.datavis.ca) 
+[<img src='https://raw.githubusercontent.com/friendly/6135/master/images/icons/psy6135-icon.png' alt='Psyc6135' height='30'>](https://friendly.github.io/6135/)
+[<img src='https://raw.githubusercontent.com/friendly/HistDataVis/main/images/favicon_io/android-chrome-192x192.png' alt='HistDataVis' height='30'>](https://friendly.github.io/HistDataVis/)
+<br />
+-->
+
+<!-- using https://simpleicons.now.sh/:name/:color -->
+[<img src='https://simpleicons.vercel.app/github/4183C4' alt='github' height='40'>](https://github.com/friendly)
+[<img src='https://simpleicons.vercel.app/twitter/00acee' alt='twitter' height='40'>](https://twitter.com/datavisFriendly)
+[<img src='https://simpleicons.vercel.app/stackoverflow/F47F24' alt='stackoverflow' height='40'>](https://stackoverflow.com/users/user101089)
+[<img src='https://www.datavis.ca/favicon.ico' alt='datavis.ca' height='40'>](https://www.datavis.ca)
+[<img src='https://raw.githubusercontent.com/friendly/6135/master/images/icons/psy6135-icon.png' height='40'>](https://friendly.github.io/6135/)
+[<img src='https://raw.githubusercontent.com/friendly/HistDataVis/main/images/favicon_io/android-chrome-192x192.png' height='40'>](https://friendly.github.io/HistDataVis/)
+[<img src='https://raw.githubusercontent.com/friendly/heplots/master/man/figures/logo.png' height='40'>](https://github.com/friendly/heplots)
+[<img src='https://raw.githubusercontent.com/friendly/candisc/master/candisc-logo.png' height='40'>](https://github.com/friendly/candisc)
+[<img src='https://raw.githubusercontent.com/friendly/vcdExtra/master/man/figures/logo.png' height='40'>](https://github.com/friendly/vcdextra)
+[<img src='https://raw.githubusercontent.com/friendly/HistData/master/HistData-logo.png' height='40'>](https://github.com/friendly/HistData)
+[<img src='https://raw.githubusercontent.com/friendly/Guerry/master/Guerry-logo.png' height='40'>](https://github.com/friendly/Guerry)
 
 
-<!-- badges: end --> 
+
+
 
 ### Hi there 👋
 
