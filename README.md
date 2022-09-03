@@ -19,8 +19,9 @@
 [<img src='https://raw.githubusercontent.com/friendly/HistDataVis/main/images/favicon_io/android-chrome-192x192.png' height='40'>](https://friendly.github.io/HistDataVis/)
 [<img src='https://raw.githubusercontent.com/friendly/heplots/master/man/figures/logo.png' height='40'>](https://github.com/friendly/heplots)
 [<img src='https://raw.githubusercontent.com/friendly/candisc/master/candisc-logo.png' height='40'>](https://github.com/friendly/candisc)
+[<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/mvinfluence-logo.png' height='40'>](https://github.com/friendly/mvinfluence)
 [<img src='https://raw.githubusercontent.com/friendly/vcdExtra/master/man/figures/logo.png' height='40'>](https://github.com/friendly/vcdextra)
-[<img src='https://raw.githubusercontent.com/friendly/HistData/master/HistData-logo.png' height='40'>](https://github.com/friendly/HistData)
+[<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='40'>](https://github.com/friendly/HistData)
 [<img src='https://raw.githubusercontent.com/friendly/Guerry/master/Guerry-logo.png' height='40'>](https://github.com/friendly/Guerry)
 
 
@@ -53,7 +54,8 @@ I'm a developer of data visualization methods, mainly in R, and an historian of 
 
 #### R packages
 
-- **Multivariate linear models:** Hyphothesis-Error plots: [heplots](https://github.com/friendly/heplots); Canonical discriminant analysis: [candisc](https://github.com/friendly/candisc).
+- **Multivariate linear models:** Hyphothesis-Error plots: [heplots](https://github.com/friendly/heplots); Canonical discriminant analysis: [candisc](https://github.com/friendly/candisc); 
+Multivariate influence: [mvinfluence](https://github.com/friendly/mvinfluence).
 
 - **Categorical data analysis:** Extensions of the `vcd` package: [vcdExtra](https://github.com/friendly/heplots).
 
