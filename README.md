@@ -11,18 +11,18 @@
 -->
 
 <!-- using https://simpleicons.now.sh/:name/:color -->
-[<img src='https://simpleicons.vercel.app/github/4183C4' alt='github' height='40'>](https://github.com/friendly)
-[<img src='https://simpleicons.vercel.app/twitter/00acee' alt='twitter' height='40'>](https://twitter.com/datavisFriendly)
-[<img src='https://simpleicons.vercel.app/stackoverflow/F47F24' alt='stackoverflow' height='40'>](https://stackoverflow.com/users/user101089)
-[<img src='https://www.datavis.ca/favicon.ico' alt='datavis.ca' height='40'>](https://www.datavis.ca)
-[<img src='https://raw.githubusercontent.com/friendly/6135/master/images/icons/psy6135-icon.png' height='40'>](https://friendly.github.io/6135/)
-[<img src='https://raw.githubusercontent.com/friendly/HistDataVis/main/images/favicon_io/android-chrome-192x192.png' height='40'>](https://friendly.github.io/HistDataVis/)
-[<img src='https://raw.githubusercontent.com/friendly/heplots/master/man/figures/logo.png' height='40'>](https://github.com/friendly/heplots)
-[<img src='https://raw.githubusercontent.com/friendly/candisc/master/candisc-logo.png' height='40'>](https://github.com/friendly/candisc)
-[<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/mvinfluence-logo.png' height='40'>](https://github.com/friendly/mvinfluence)
-[<img src='https://raw.githubusercontent.com/friendly/vcdExtra/master/man/figures/logo.png' height='40'>](https://github.com/friendly/vcdextra)
-[<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='40'>](https://github.com/friendly/HistData)
-[<img src='https://raw.githubusercontent.com/friendly/Guerry/master/Guerry-logo.png' height='40'>](https://github.com/friendly/Guerry)
+[<img src='https://simpleicons.vercel.app/github/4183C4' alt='github' height='60'>](https://github.com/friendly)
+[<img src='https://simpleicons.vercel.app/twitter/00acee' alt='twitter' height='60'>](https://twitter.com/datavisFriendly)
+[<img src='https://simpleicons.vercel.app/stackoverflow/F47F24' alt='stackoverflow' height='60'>](https://stackoverflow.com/users/user101089)
+[<img src='https://www.datavis.ca/favicon.ico' alt='datavis.ca' height='60'>](https://www.datavis.ca)
+[<img src='https://raw.githubusercontent.com/friendly/6135/master/images/icons/psy6135-icon.png' height='60'>](https://friendly.github.io/6135/)
+[<img src='https://raw.githubusercontent.com/friendly/HistDataVis/main/images/favicon_io/android-chrome-192x192.png' height='60'>](https://friendly.github.io/HistDataVis/)
+[<img src='https://raw.githubusercontent.com/friendly/heplots/master/man/figures/logo.png' height='60'>](https://github.com/friendly/heplots)
+[<img src='https://raw.githubusercontent.com/friendly/candisc/master/candisc-logo.png' height='60'>](https://github.com/friendly/candisc)
+[<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/mvinfluence-logo.png' height='60'>](https://github.com/friendly/mvinfluence)
+[<img src='https://raw.githubusercontent.com/friendly/vcdExtra/master/man/figures/logo.png' height='60'>](https://github.com/friendly/vcdextra)
+[<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='60'>](https://github.com/friendly/HistData)
+[<img src='https://raw.githubusercontent.com/friendly/Guerry/master/Guerry-logo.png' height='60'>](https://github.com/friendly/Guerry)
 
 
 
