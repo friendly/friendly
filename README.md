@@ -22,7 +22,7 @@
 [<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/logo.png' height='40'>](https://github.com/friendly/mvinfluence)
 [<img src='https://raw.githubusercontent.com/friendly/vcdExtra/master/man/figures/logo.png' height='40'>](https://github.com/friendly/vcdextra)
 [<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='40'>](https://github.com/friendly/HistData)
-[<img src='https://raw.githubusercontent.com/friendly/Guerry/master/Guerry-logo.png' height='40'>](https://github.com/friendly/Guerry)
+[<img src='https://raw.githubusercontent.com/friendly/Guerry/master/man/figures/Guerry-logo.png' height='40'>](https://github.com/friendly/Guerry)
 [<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height='40'>](https://github.com/friendly/statquotes)
 
 
