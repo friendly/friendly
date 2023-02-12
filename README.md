@@ -55,9 +55,14 @@ I'm a developer of data visualization methods, mainly in R, and an historian of 
 
 #### R packages
 
-- **Multivariate linear models:** Hyphothesis-Error plots: [heplots](https://github.com/friendly/heplots); Canonical discriminant analysis: [candisc](https://github.com/friendly/candisc); 
-Multivariate influence: [mvinfluence](https://github.com/friendly/mvinfluence).
+- **Multivariate linear models:** 
+  + Hyphothesis-Error plots: [heplots](https://github.com/friendly/heplots); 
+  + Canonical discriminant analysis: [candisc](https://github.com/friendly/candisc); 
+  + Multivariate influence: [mvinfluence](https://github.com/friendly/mvinfluence).
 
-- **Categorical data analysis:** Extensions of the `vcd` package: [vcdExtra](https://github.com/friendly/heplots).
+- **Categorical data analysis:** Extensions of the `vcd` package: [vcdExtra](https://github.com/friendly/heplots). See also my course: [Psy6136: Categorical Data Analysis](https://friendly.github.io/psy6136/)
 
-- **Data:** Datasets in the history of statistics: [HistData](https://github.com/friendly/HistData); data from Andre-Michel Guerry, _Moral Statistics of France_: [Guerry](https://github.com/friendly/Guerry); The Lahman Baseball Data archive: [Lahman](https://github.com/cdalzell/Lahman)
+- **Data:** Datasets in the history of statistics:   
+  + [HistData](https://github.com/friendly/HistData); 
+  + data from Andre-Michel Guerry, _Moral Statistics of France_: [Guerry](https://github.com/friendly/Guerry); 
+  + The Lahman Baseball Data archive: [Lahman](https://github.com/cdalzell/Lahman)
