@@ -12,6 +12,10 @@ knitr::opts_chunk$set(echo = FALSE)
 pkgs <- c("heplots", "candisc", "mvinfluence", "matlib", "gellipsoid", "twoway",
           "vcdExtra",   # "vcd",
           "HistData", "Guerry", "Lahman" )
+
+desc <- function(package) {
+  packageDescription(package)$Description
+}
 ```
 
 
