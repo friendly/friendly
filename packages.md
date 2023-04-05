@@ -47,6 +47,24 @@ detect influential observations are provided.
 
 ### matlib
 
+[<img src='https://raw.githubusercontent.com/friendly/matlib/master/matlib-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/matlib)
+
+A collection of matrix functions for teaching and learning matrix linear
+algebra as used in multivariate statistical methods. These functions are
+mainly for tutorial purposes in learning matrix algebra ideas using R.
+In some cases, functions are provided for concepts available elsewhere
+in R, but where the function call or name is not obvious. In other
+cases, functions are provided to show or demonstrate an algorithm. In
+addition, a collection of functions are provided for drawing vector
+diagrams in 2D and 3D.
+
 ### gellipsoid
+
+[<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/gellipsoid-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
+
+Represent generalized geometric ellipsoids with the “(U,D)”
+representation. It allows degenerate and/or unbounded ellipsoids,
+together with methods for linear and duality transformations, and for
+plotting. The ideas are described in Friendly, Monette & Fox (2013).
 
 ### two way
