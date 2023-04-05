@@ -54,9 +54,19 @@ I'm a developer of data visualization methods, mainly in R, and an historian of 
 
 #### R packages
 
-- **Multivariate linear models:** Hyphothesis-Error plots: [heplots](https://github.com/friendly/heplots); Canonical discriminant analysis: [candisc](https://github.com/friendly/candisc); 
-Multivariate influence: [mvinfluence](https://github.com/friendly/mvinfluence).
+- **Multivariate linear models:** 
+  + Hyphothesis-Error plots: [heplots](https://github.com/friendly/heplots); 
+  + Canonical discriminant analysis: [candisc](https://github.com/friendly/candisc); 
+  + Multivariate influence: [mvinfluence](https://github.com/friendly/mvinfluence);
+  + Generalized ridge trace plots for ridge regression: [genridge](mvinfluence);
+  + Matrix linear algebra: [matlib](https://github.com/friendly/matlib);
+  + Generalized ellipsoids: [gellipsoid](https://github.com/friendly/gellipsoid)
+  + Two-way tables a la Tukey: [twoway](https://github.com/friendly/twoway)
 
 - **Categorical data analysis:** Extensions of the `vcd` package: [vcdExtra](https://github.com/friendly/heplots).
 
-- **Data:** Datasets in the history of statistics: [HistData](https://github.com/friendly/HistData); data from Andre-Michel Guerry, _Moral Statistics of France_: [Guerry](https://github.com/friendly/Guerry); The Lahman Baseball Data archive: [Lahman](https://github.com/cdalzell/Lahman)
+- **Data:** 
+  + Datasets in the history of statistics: [HistData](https://github.com/friendly/HistData)
+  + Data from Andre-Michel Guerry, _Moral Statistics of France_: [Guerry](https://github.com/friendly/Guerry);
+  + The Lahman Baseball Data archive: [Lahman](https://github.com/cdalzell/Lahman)
+  + Quotes on statistics: [statquotes](https://github.com/friendly/statquotes)
