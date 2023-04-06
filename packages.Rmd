@@ -1,6 +1,6 @@
 ---
 title: "R packages"
-output: 
+output:
   github_document
 ---
 
@@ -31,7 +31,7 @@ This page provides an overview of my R packages and those I have contributed to.
 ```{r heplots-desc, results='asis'}
 cat(desc("heplots"))
 ```
-
+**Documentation**: [friendly.github.io/heplots](http://friendly.github.io/heplots/)
 
 ### candisc
 
@@ -40,15 +40,16 @@ cat(desc("heplots"))
 ```{r candisc-desc, results='asis'}
 cat(desc("candisc"))
 ```
+**Documentation**: [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
 ### mvinfluence
 
 [<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/mvinfluence)
 
-Computes regression deletion diagnostics for multivariate linear models and provides some associated
-	diagnostic plots.  The diagnostic measures include hat-values (leverages), generalized Cook's distance, and
-	generalized squared 'studentized' residuals.  Several types of plots to detect influential observations are
-	provided.
+```{r mvinfluence-desc, results='asis'}
+cat(desc("mvinfluence"))
+```
+**Documentation**: [friendly.github.io/mvinfluence](https://friendly.github.io/mvinfluence/)
 
 ### matlib
 
@@ -58,6 +59,8 @@ Computes regression deletion diagnostics for multivariate linear models and prov
 ```{r matlib-desc, results='asis'}
 cat(desc("matlib"))
 ```
+**Documentation**: [friendly.github.io/matlib](https://friendly.github.io/matlib/)
+
 
 ### gellipsoid
 
@@ -66,7 +69,31 @@ cat(desc("matlib"))
 ```{r gellipsoid-desc, results='asis'}
 cat(desc("gellipsoid"))
 ```
-
+<br/>
 
 ### two way
+
+[<img src='https://raw.githubusercontent.com/friendly/twoway/master/twoway-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/twoway)
+```{r twoway-desc, results='asis'}
+cat(desc("twoway"))
+```
+**Documentation**: [rdrr.io/cran/twoway/](https://rdrr.io/cran/twoway/)
+
+## Categorical data analysis
+
+### vcdExtra
+
+[<img src='https://raw.githubusercontent.com/friendly/vcdExtra/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/vcdExtra)
+```{r vcdExtra-desc, results='asis'}
+cat(desc("vcdExtra"))
+```
+**Documentation**: [friendly.github.io/vcdExtra](http://friendly.github.io/vcdExtra/)
+
+## Data
+
+[<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
+```{r HistData-desc, results='asis'}
+cat(desc("HistData"))
+```
+
 
