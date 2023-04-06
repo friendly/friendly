@@ -54,6 +54,7 @@ I'm a developer of data visualization methods, mainly in R, and an historian of 
   + [History of Data Visualization](https://friendly.github.io/HistDataVis/)
 
 #### R packages
+See: [packages](packages.md) for some descriptions
 
 - **Multivariate linear models:** 
   + Hyphothesis-Error plots: [heplots](https://github.com/friendly/heplots); 
