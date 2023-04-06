@@ -24,6 +24,7 @@
 [<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height="60">](https://github.com/friendly/HistData)
 [<img src='https://raw.githubusercontent.com/friendly/Guerry/master/man/figures/Guerry-logo.png' height="60">](https://github.com/friendly/Guerry)
 [<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height="60">](https://github.com/friendly/statquotes)
+[<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/Lahman_hex.png' height="60">](https://github.com/cdalzell/Lahman)
 
 
 
@@ -54,7 +55,7 @@ I'm a developer of data visualization methods, mainly in R, and an historian of 
   + [History of Data Visualization](https://friendly.github.io/HistDataVis/)
 
 #### R packages
-See: [packages](packages.md) for some descriptions
+See: [packages](packages.md) for some descriptions and links to documentation.
 
 - **Multivariate linear models:** 
   + Hyphothesis-Error plots: [heplots](https://github.com/friendly/heplots); 

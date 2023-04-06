@@ -1,8 +1,12 @@
 R packages
 ================
 
-This page provides an overview of my R packages and those I have
-contributed to.
+This page provides overview descriptions of my R packages and those I
+have contributed to. The hex icons link to the GitHub repositories.
+Links to the package **Documentation** are also provided.
+
+Topics: [Multivariate linear models](#MLM) \|\| [Categorical data
+analysis](#CDA) \|\| [Data](#DATA)
 
 ## Multivariate linear models
 
@@ -82,8 +86,7 @@ plot for removable ‘non-additivity’ via a power transformation of the
 response. It implements Tukey’s Exploratory Data Analysis (1973) \<ISBN:
 978-0201076165\> methods, including a 1-degree-of-freedom test for
 row\*column ‘non-additivity’, linear in the row and column effects.
-**Documentation**:
-[rdrr.io/cran/twoway/man/twoway.html](https://rdrr.io/cran/twoway/man/twoway.html)
+**Documentation**: [rdrr.io/cran/twoway/](https://rdrr.io/cran/twoway/)
 
 ## Categorical data analysis
 
@@ -103,9 +106,41 @@ Data Analysis with R” by Michael Friendly and David Meyer.
 
 ## Data
 
+### HistData
+
 [<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
 The ‘HistData’ package provides a collection of small data sets that are
 interesting and important in the history of statistics and data
 visualization. The goal of the package is to make these available, both
 for instructional use and for historical research. Some of these present
-interesting challenges for graphics or analysis in R.
+interesting challenges for graphics or analysis in R. **Documentation**:
+[rdrr.io/cran/HistData/](https://rdrr.io/cran/HistData/)
+
+### Guerry
+
+[<img src='https://raw.githubusercontent.com/friendly/Guerry/master/man/figures/Guerry-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/Guerry)
+Maps of France in 1830, multivariate datasets from A.-M. Guerry and
+others, and statistical and graphic methods related to Guerry’s “Moral
+Statistics of France”. The goal is to facilitate the exploration and
+development of statistical and graphic methods for multivariate data in
+a geospatial context of historical interest. **Documentation**:
+[rdrr.io/cran/Guerry/](https://rdrr.io/cran/Guerry/)
+
+### Lahman
+
+[<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/Lahman_hex.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
+Provides the tables from the ‘Sean Lahman Baseball Database’ as a set of
+R data.frames. It uses the data on pitching, hitting and fielding
+performance and other tables from 1871 through 2021, as recorded in the
+2022 version of the database. Documentation examples show how many
+baseball questions can be investigated. **Documentation**:
+[rdrr.io/cran/Lahman/](https://rdrr.io/cran/Lahman/)
+
+### statquotes
+
+[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
+Generates a random quotation from a data base of quotes on topics in
+statistics, data visualization and science. Other functions allow
+searching the quotes database by key term tags, or authors or creating a
+word cloud. **Documentation**:
+[rdrr.io/cran/statquotes/](https://rdrr.io/cran/statquotes/)

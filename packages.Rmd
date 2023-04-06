@@ -19,9 +19,13 @@ desc <- function(package) {
 ```
 
 
-This page provides an overview of my R packages and those I have contributed to.
+This page provides overview descriptions of my R packages and those I have contributed to.
+The hex icons link to the GitHub repositories. Links to the package **Documentation** are
+also provided.
 
-## Multivariate linear models
+Topics: [Multivariate linear models](#MLM) || [Categorical data analysis](#CDA) || [Data](#DATA)
+
+## Multivariate linear models {#MLM}
 
 ### heplots
 
@@ -79,7 +83,7 @@ cat(desc("twoway"))
 ```
 **Documentation**: [rdrr.io/cran/twoway/](https://rdrr.io/cran/twoway/)
 
-## Categorical data analysis
+## Categorical data analysis {#CDA}
 
 ### vcdExtra
 
@@ -89,11 +93,39 @@ cat(desc("vcdExtra"))
 ```
 **Documentation**: [friendly.github.io/vcdExtra](http://friendly.github.io/vcdExtra/)
 
-## Data
+## Data {#DATA}
+
+### HistData
 
 [<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
 ```{r HistData-desc, results='asis'}
 cat(desc("HistData"))
 ```
+**Documentation**: [rdrr.io/cran/HistData/](https://rdrr.io/cran/HistData/)
+
+
+### Guerry
+
+[<img src='https://raw.githubusercontent.com/friendly/Guerry/master/man/figures/Guerry-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/Guerry)
+```{r Guerry-desc, results='asis'}
+cat(desc("Guerry"))
+```
+**Documentation**: [rdrr.io/cran/Guerry/](https://rdrr.io/cran/Guerry/)
+
+### Lahman
+
+[<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/Lahman_hex.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
+```{r Lahman-desc, results='asis'}
+cat(desc("Lahman"))
+```
+**Documentation**: [rdrr.io/cran/Lahman/](https://rdrr.io/cran/Lahman/)
+
+### statquotes
+
+[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
+```{r statquotes-desc, results='asis'}
+cat(desc("statquotes"))
+```
+**Documentation**: [rdrr.io/cran/statquotes/](https://rdrr.io/cran/statquotes/)
 
 
