@@ -10,7 +10,7 @@ analysis](#CDA) \|\| [Data](#DATA)
 
 ## Multivariate linear models
 
-### heplots
+### [heplots](https://github.com/friendly/heplots)
 
 [<img src='https://raw.githubusercontent.com/friendly/heplots/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/heplots)
 
@@ -23,7 +23,7 @@ reduced-rank canonical discriminant space when there are more than a few
 response variables. **Documentation**:
 [friendly.github.io/heplots](http://friendly.github.io/heplots/)
 
-### candisc
+### [candisc](https://github.com/friendly/candisc)
 
 [<img src='https://raw.githubusercontent.com/friendly/candisc/master/candisc-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/candisc)
 
@@ -42,7 +42,7 @@ canonical correlation analysis when all predictors are quantitative.
 **Documentation**:
 [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
-### mvinfluence
+### [mvinfluence](https://github.com/friendly/mvinfluence)
 
 [<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/mvinfluence)
 
@@ -53,7 +53,7 @@ generalized squared ‘studentized’ residuals. Several types of plots to
 detect influential observations are provided. **Documentation**:
 [friendly.github.io/mvinfluence](https://friendly.github.io/mvinfluence/)
 
-### matlib
+### [matlib](https://github.com/friendly/matlib)
 
 [<img src='https://raw.githubusercontent.com/friendly/matlib/master/matlib-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/matlib)
 
@@ -67,7 +67,7 @@ addition, a collection of functions are provided for drawing vector
 diagrams in 2D and 3D. **Documentation**:
 [friendly.github.io/matlib](https://friendly.github.io/matlib/)
 
-### gellipsoid
+### [gellipsoid](https://github.com/friendly/gellipsoid)
 
 [<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/gellipsoid-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
 
@@ -76,8 +76,10 @@ representation. It allows degenerate and/or unbounded ellipsoids,
 together with methods for linear and duality transformations, and for
 plotting. The ideas are described in Friendly, Monette & Fox (2013).
 <br/>
+<p>
+</p>
 
-### two way
+### [two way](https://github.com/friendly/twoway)
 
 [<img src='https://raw.githubusercontent.com/friendly/twoway/master/twoway-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/twoway)
 Carries out analyses of two-way tables with one observation per cell,
@@ -90,7 +92,7 @@ row\*column ‘non-additivity’, linear in the row and column effects.
 
 ## Categorical data analysis
 
-### vcdExtra
+### [vcdExtra](https://github.com/friendly/vcdExtra)
 
 [<img src='https://raw.githubusercontent.com/friendly/vcdExtra/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/vcdExtra)
 Provides additional data sets, methods and documentation to complement
@@ -104,9 +106,18 @@ Data Analysis with R” by Michael Friendly and David Meyer.
 **Documentation**:
 [friendly.github.io/vcdExtra](http://friendly.github.io/vcdExtra/)
 
+### [nestedLogit](https://github.com/friendly/nestedLogit)
+
+[<img src='https://raw.githubusercontent.com/friendly/nestedLogit/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/nestedLogit)
+Provides functions for specifying and fitting nested dichotomy logistic
+regression models for a multi-category response and methods for
+summarising those models. Nested dichotomies are statistically
+independent, and hence provide an additive decomposition of tests for
+the overall ‘polytomous’ response.
+
 ## Data
 
-### HistData
+### [HistData](https://github.com/friendly/HistData)
 
 [<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
 The ‘HistData’ package provides a collection of small data sets that are
@@ -116,7 +127,7 @@ for instructional use and for historical research. Some of these present
 interesting challenges for graphics or analysis in R. **Documentation**:
 [rdrr.io/cran/HistData/](https://rdrr.io/cran/HistData/)
 
-### Guerry
+### [Guerry](https://github.com/friendly/Guerry)
 
 [<img src='https://raw.githubusercontent.com/friendly/Guerry/master/man/figures/Guerry-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/Guerry)
 Maps of France in 1830, multivariate datasets from A.-M. Guerry and
@@ -126,7 +137,7 @@ development of statistical and graphic methods for multivariate data in
 a geospatial context of historical interest. **Documentation**:
 [rdrr.io/cran/Guerry/](https://rdrr.io/cran/Guerry/)
 
-### Lahman
+### [Lahman](https://github.com/cdalzell/Lahman)
 
 [<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/Lahman_hex.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
 Provides the tables from the ‘Sean Lahman Baseball Database’ as a set of
@@ -136,7 +147,7 @@ performance and other tables from 1871 through 2021, as recorded in the
 baseball questions can be investigated. **Documentation**:
 [rdrr.io/cran/Lahman/](https://rdrr.io/cran/Lahman/)
 
-### statquotes
+### [statquotes](https://github.com/friendly/statquotes)
 
 [<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
 Generates a random quotation from a data base of quotes on topics in

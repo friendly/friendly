@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r packages}
 pkgs <- c("heplots", "candisc", "mvinfluence", "matlib", "gellipsoid", "twoway",
-          "vcdExtra",   # "vcd",
+          "vcdExtra", "nestedLogit",  # "vcd",
           "HistData", "Guerry", "Lahman" )
 
 desc <- function(package) {
@@ -27,7 +27,7 @@ Topics: [Multivariate linear models](#MLM) || [Categorical data analysis](#CDA) 
 
 ## Multivariate linear models {#MLM}
 
-### heplots
+### [heplots](https://github.com/friendly/heplots)
 
 
 [<img src='https://raw.githubusercontent.com/friendly/heplots/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/heplots)
@@ -37,7 +37,7 @@ cat(desc("heplots"))
 ```
 **Documentation**: [friendly.github.io/heplots](http://friendly.github.io/heplots/)
 
-### candisc
+### [candisc](https://github.com/friendly/candisc)
 
 [<img src='https://raw.githubusercontent.com/friendly/candisc/master/candisc-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/candisc)
 
@@ -46,7 +46,7 @@ cat(desc("candisc"))
 ```
 **Documentation**: [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
-### mvinfluence
+### [mvinfluence](https://github.com/friendly/mvinfluence)
 
 [<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/mvinfluence)
 
@@ -55,7 +55,7 @@ cat(desc("mvinfluence"))
 ```
 **Documentation**: [friendly.github.io/mvinfluence](https://friendly.github.io/mvinfluence/)
 
-### matlib
+### [matlib](https://github.com/friendly/matlib)
 
 [<img src='https://raw.githubusercontent.com/friendly/matlib/master/matlib-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/matlib)
 
@@ -66,7 +66,7 @@ cat(desc("matlib"))
 **Documentation**: [friendly.github.io/matlib](https://friendly.github.io/matlib/)
 
 
-### gellipsoid
+### [gellipsoid](https://github.com/friendly/gellipsoid)
 
 [<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/gellipsoid-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
 
@@ -74,8 +74,9 @@ cat(desc("matlib"))
 cat(desc("gellipsoid"))
 ```
 <br/>
+<p></p>
 
-### two way
+### [two way](https://github.com/friendly/twoway)
 
 [<img src='https://raw.githubusercontent.com/friendly/twoway/master/twoway-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/twoway)
 ```{r twoway-desc, results='asis'}
@@ -85,7 +86,7 @@ cat(desc("twoway"))
 
 ## Categorical data analysis {#CDA}
 
-### vcdExtra
+### [vcdExtra](https://github.com/friendly/vcdExtra)
 
 [<img src='https://raw.githubusercontent.com/friendly/vcdExtra/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/vcdExtra)
 ```{r vcdExtra-desc, results='asis'}
@@ -93,9 +94,17 @@ cat(desc("vcdExtra"))
 ```
 **Documentation**: [friendly.github.io/vcdExtra](http://friendly.github.io/vcdExtra/)
 
+### [nestedLogit](https://github.com/friendly/nestedLogit)
+
+[<img src='https://raw.githubusercontent.com/friendly/nestedLogit/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/nestedLogit)
+```{r nestedLogit-desc, results='asis'}
+cat(desc("nestedLogit"))
+```
+
+
 ## Data {#DATA}
 
-### HistData
+### [HistData](https://github.com/friendly/HistData)
 
 [<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
 ```{r HistData-desc, results='asis'}
@@ -104,7 +113,7 @@ cat(desc("HistData"))
 **Documentation**: [rdrr.io/cran/HistData/](https://rdrr.io/cran/HistData/)
 
 
-### Guerry
+### [Guerry](https://github.com/friendly/Guerry)
 
 [<img src='https://raw.githubusercontent.com/friendly/Guerry/master/man/figures/Guerry-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/Guerry)
 ```{r Guerry-desc, results='asis'}
@@ -112,7 +121,7 @@ cat(desc("Guerry"))
 ```
 **Documentation**: [rdrr.io/cran/Guerry/](https://rdrr.io/cran/Guerry/)
 
-### Lahman
+### [Lahman](https://github.com/cdalzell/Lahman)
 
 [<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/Lahman_hex.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
 ```{r Lahman-desc, results='asis'}
@@ -120,7 +129,7 @@ cat(desc("Lahman"))
 ```
 **Documentation**: [rdrr.io/cran/Lahman/](https://rdrr.io/cran/Lahman/)
 
-### statquotes
+### [statquotes](https://github.com/friendly/statquotes)
 
 [<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
 ```{r statquotes-desc, results='asis'}
