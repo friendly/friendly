@@ -113,7 +113,11 @@ Provides functions for specifying and fitting nested dichotomy logistic
 regression models for a multi-category response and methods for
 summarising those models. Nested dichotomies are statistically
 independent, and hence provide an additive decomposition of tests for
-the overall ‘polytomous’ response.
+the overall ‘polytomous’ response. When the dichotomies make sense
+substantively, this method can be a simpler alternative to the standard
+‘multinomial’ logistic model which compares response categories to a
+reference level. **Documentation**:
+[friendly.github.io/nestedLogit](https://friendly.github.io/nestedLogit/)
 
 ## Data
 
@@ -142,8 +146,8 @@ a geospatial context of historical interest. **Documentation**:
 [<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/Lahman_hex.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
 Provides the tables from the ‘Sean Lahman Baseball Database’ as a set of
 R data.frames. It uses the data on pitching, hitting and fielding
-performance and other tables from 1871 through 2021, as recorded in the
-2022 version of the database. Documentation examples show how many
+performance and other tables from 1871 through 2022, as recorded in the
+2023 version of the database. Documentation examples show how many
 baseball questions can be investigated. **Documentation**:
 [rdrr.io/cran/Lahman/](https://rdrr.io/cran/Lahman/)
 

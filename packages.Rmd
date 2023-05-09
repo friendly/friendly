@@ -100,7 +100,7 @@ cat(desc("vcdExtra"))
 ```{r nestedLogit-desc, results='asis'}
 cat(desc("nestedLogit"))
 ```
-
+**Documentation**: [friendly.github.io/nestedLogit](https://friendly.github.io/nestedLogit/)
 
 ## Data {#DATA}
 
