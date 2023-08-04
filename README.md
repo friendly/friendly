@@ -61,7 +61,7 @@ See: [packages](packages.md) for some descriptions and links to documentation.
   + Hyphothesis-Error plots: [heplots](https://github.com/friendly/heplots); 
   + Canonical discriminant analysis: [candisc](https://github.com/friendly/candisc); 
   + Multivariate influence: [mvinfluence](https://github.com/friendly/mvinfluence);
-  + Generalized ridge trace plots for ridge regression: [genridge](mvinfluence);
+  + Generalized ridge trace plots for ridge regression: [genridge](ttps://github.com/friendly/mvinfluence);
   + Matrix linear algebra: [matlib](https://github.com/friendly/matlib);
   + Generalized ellipsoids: [gellipsoid](https://github.com/friendly/gellipsoid)
   + Two-way tables a la Tukey: [twoway](https://github.com/friendly/twoway)
