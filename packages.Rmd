@@ -46,6 +46,17 @@ cat(desc("candisc"))
 ```
 **Documentation**: [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
+### genridge
+
+[<img src='https://raw.githubusercontent.com/friendly/genridge/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/genridge)
+
+```{r genridge-desc, results='asis'}
+cat(desc("genridge"))
+```
+**Documentation**: [friendly.github.io/genridge](https://friendly.github.io/genridge/)
+
+
+
 ### mvinfluence
 
 [<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/mvinfluence)
@@ -84,6 +95,14 @@ cat(desc("twoway"))
 **Documentation**: [rdrr.io/cran/twoway/](https://rdrr.io/cran/twoway/)
 
 ## Categorical data analysis {#CDA}
+
+### nestedLogit
+
+[<img src='https://raw.githubusercontent.com/friendly/nestedLogit/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/nestedLogit)
+```{r nestedLogit-desc, results='asis'}
+cat(desc("nestedLogit"))
+```
+**Documentation**: [friendly.github.io/nestedLogit](http://friendly.github.io/nestedLogit/)
 
 ### vcdExtra
 

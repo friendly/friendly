@@ -42,6 +42,21 @@ canonical correlation analysis when all predictors are quantitative.
 **Documentation**:
 [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
+### genridge
+
+[<img src='https://raw.githubusercontent.com/friendly/genridge/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/genridge)
+
+The genridge package introduces generalizations of the standard
+univariate ridge trace plot used in ridge regression and related
+methods. These graphical methods show both bias (actually, shrinkage)
+and precision, by plotting the covariance ellipsoids of the estimated
+coefficients, rather than just the estimates themselves. 2D and 3D
+plotting methods are provided, both in the space of the predictor
+variables and in the transformed space of the PCA/SVD of the
+predictors.  
+**Documentation**:
+[friendly.github.io/genridge](https://friendly.github.io/genridge/)
+
 ### mvinfluence
 
 [<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/mvinfluence)
@@ -89,6 +104,19 @@ row\*column ‘non-additivity’, linear in the row and column effects.
 **Documentation**: [rdrr.io/cran/twoway/](https://rdrr.io/cran/twoway/)
 
 ## Categorical data analysis
+
+### nestedLogit
+
+[<img src='https://raw.githubusercontent.com/friendly/nestedLogit/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/nestedLogit)
+Provides functions for specifying and fitting nested dichotomy logistic
+regression models for a multi-category response and methods for
+summarising those models. Nested dichotomies are statistically
+independent, and hence provide an additive decomposition of tests for
+the overall ‘polytomous’ response. When the dichotomies make sense
+substantively, this method can be a simpler alternative to the standard
+‘multinomial’ logistic model which compares response categories to a
+reference level. **Documentation**:
+[friendly.github.io/nestedLogit](http://friendly.github.io/nestedLogit/)
 
 ### vcdExtra
 
