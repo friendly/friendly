@@ -66,7 +66,9 @@ See: [packages](packages.md) for some descriptions and links to documentation.
   + Generalized ellipsoids: [gellipsoid](https://github.com/friendly/gellipsoid)
   + Two-way tables a la Tukey: [twoway](https://github.com/friendly/twoway)
 
-- **Categorical data analysis:** Extensions of the `vcd` package: [vcdExtra](https://github.com/friendly/heplots). See also my course: [Psy6136: Categorical Data Analysis](https://friendly.github.io/psy6136/)
+- **Categorical data analysis:** Extensions of the [vcd](https://cran.r-project.org/package=vcd) package: [vcdExtra](https://github.com/friendly/heplots). See also my course: [Psy6136: Categorical Data Analysis](https://friendly.github.io/psy6136/)
+
+- **Nested dichotomies logistic regression**: The [nestedLogit](https://github.com/friendly/nestedLogit) package fits often simpler models for polytomous (multi-category) response date than multinomial models.
 
 - **Data:** 
   + Datasets in the history of statistics: [HistData](https://github.com/friendly/HistData)
