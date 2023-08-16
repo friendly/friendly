@@ -42,17 +42,32 @@ canonical correlation analysis when all predictors are quantitative.
 **Documentation**:
 [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
+### [VisCollin](https://github.com/friendly/VisCollin)
+
+[<img src='https://raw.githubusercontent.com/friendly/VisCollin/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/VisCollin)
+
+Provides methods to calculate diagnostics for multicollinearity among
+predictors in a linear or generalized linear model. It also provides
+methods to visualize those diagnostics following Friendly & Kwan (2009),
+“Where’s Waldo: Visualizing Collinearity Diagnostics”, The American
+Statistician, 63, 56–65. These include better tabular presentation of
+collinearity diagnostics that highlight the important numbers, a
+semi-graphic tableplot of the diagnostics to make warning and danger
+levels more salient, and a “collinearity biplot” of the smallest
+dimensions of predictor space, where collinearity is most apparent.
+
 ### [genridge](https://github.com/friendly/genridge)
 
 [<img src='https://raw.githubusercontent.com/friendly/genridge/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/genridge)
 
-    The genridge package introduces generalizations of the standard univariate
-    ridge trace plot used in ridge regression and related methods.  These graphical methods
-    show both bias (actually, shrinkage) and precision, by plotting the covariance ellipsoids of the estimated
-    coefficients, rather than just the estimates themselves.  2D and 3D plotting methods are provided,
-    both in the space of the predictor variables and in the transformed space of the PCA/SVD of the
-    predictors.  
-
+The genridge package introduces generalizations of the standard
+univariate ridge trace plot used in ridge regression and related
+methods. These graphical methods show both bias (actually, shrinkage)
+and precision, by plotting the covariance ellipsoids of the estimated
+coefficients, rather than just the estimates themselves. 2D and 3D
+plotting methods are provided, both in the space of the predictor
+variables and in the transformed space of the PCA/SVD of the
+predictors.  
 **Documentation**:
 [friendly.github.io/genridge](https://friendly.github.io/genridge/)
 
@@ -163,7 +178,8 @@ a geospatial context of historical interest. **Documentation**:
 Collects several classical word pools used most often to provide lists
 of words in psychological studies of learning and memory. It provides a
 simple function, ‘pickList’ for selecting random samples of words within
-given ranges.
+given ranges. **Documentation**:
+[rdrr.io/cran/WordPools/](https://rdrr.io/cran/WordPools/)
 
 ### [Lahman](https://github.com/cdalzell/Lahman)
 

@@ -9,7 +9,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r packages}
-pkgs <- c("heplots", "candisc", "mvinfluence", "matlib", "gellipsoid", "twoway",
+pkgs <- c("heplots", "candisc", "mvinfluence", "genridge", "VisCollin",
+          "matlib", "gellipsoid", "twoway",
           "vcdExtra", "nestedLogit",  # "vcd",
           "HistData", "Guerry", "Lahman" )
 
@@ -45,6 +46,14 @@ cat(desc("heplots"))
 cat(desc("candisc"))
 ```
 **Documentation**: [friendly.github.io/candisc](https://friendly.github.io/candisc/)
+
+### [VisCollin](https://github.com/friendly/VisCollin)
+
+[<img src='https://raw.githubusercontent.com/friendly/VisCollin/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/VisCollin)
+
+```{r VisCollin-desc, results='asis'}
+cat(desc("VisCollin"))
+```
 
 ### [genridge](https://github.com/friendly/genridge)
 
@@ -137,6 +146,7 @@ cat(desc("Guerry"))
 ```{r WordPools-desc, results='asis'}
 cat(desc("WordPools"))
 ```
+**Documentation**: [rdrr.io/cran/WordPools/](https://rdrr.io/cran/WordPools/)
 
 
 ### [Lahman](https://github.com/cdalzell/Lahman)
