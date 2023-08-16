@@ -42,6 +42,20 @@ canonical correlation analysis when all predictors are quantitative.
 **Documentation**:
 [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
+### [genridge](https://github.com/friendly/genridge)
+
+[<img src='https://raw.githubusercontent.com/friendly/genridge/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/genridge)
+
+    The genridge package introduces generalizations of the standard univariate
+    ridge trace plot used in ridge regression and related methods.  These graphical methods
+    show both bias (actually, shrinkage) and precision, by plotting the covariance ellipsoids of the estimated
+    coefficients, rather than just the estimates themselves.  2D and 3D plotting methods are provided,
+    both in the space of the predictor variables and in the transformed space of the PCA/SVD of the
+    predictors.  
+
+**Documentation**:
+[friendly.github.io/genridge](https://friendly.github.io/genridge/)
+
 ### [mvinfluence](https://github.com/friendly/mvinfluence)
 
 [<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/mvinfluence)
@@ -111,19 +125,21 @@ Data Analysis with R” by Michael Friendly and David Meyer.
 [<img src='https://raw.githubusercontent.com/friendly/nestedLogit/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/nestedLogit)
 Provides functions for specifying and fitting nested dichotomy logistic
 regression models for a multi-category response and methods for
-summarising those models. Nested dichotomies are statistically
-independent, and hence provide an additive decomposition of tests for
-the overall ‘polytomous’ response. When the dichotomies make sense
-substantively, this method can be a simpler alternative to the standard
-‘multinomial’ logistic model which compares response categories to a
-reference level. **Documentation**:
+summarising and plotting those models. Nested dichotomies are
+statistically independent, and hence provide an additive decomposition
+of tests for the overall ‘polytomous’ response. When the dichotomies
+make sense substantively, this method can be a simpler alternative to
+the standard ‘multinomial’ logistic model which compares response
+categories to a reference level. See: J. Fox (2016), “Applied Regression
+Analysis and Generalized Linear Models”, 3rd Ed., ISBN 1452205663.
+**Documentation**:
 [friendly.github.io/nestedLogit](https://friendly.github.io/nestedLogit/)
 
 ## Data
 
 ### [HistData](https://github.com/friendly/HistData)
 
-[<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
+[<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
 The ‘HistData’ package provides a collection of small data sets that are
 interesting and important in the history of statistics and data
 visualization. The goal of the package is to make these available, both
@@ -140,6 +156,14 @@ Statistics of France”. The goal is to facilitate the exploration and
 development of statistical and graphic methods for multivariate data in
 a geospatial context of historical interest. **Documentation**:
 [rdrr.io/cran/Guerry/](https://rdrr.io/cran/Guerry/)
+
+### [WordPools](https://github.com/friendly/WordPools)
+
+[<img src='https://raw.githubusercontent.com/friendly/WordPools/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/WordPools)
+Collects several classical word pools used most often to provide lists
+of words in psychological studies of learning and memory. It provides a
+simple function, ‘pickList’ for selecting random samples of words within
+given ranges.
 
 ### [Lahman](https://github.com/cdalzell/Lahman)
 

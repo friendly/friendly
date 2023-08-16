@@ -46,6 +46,16 @@ cat(desc("candisc"))
 ```
 **Documentation**: [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
+### [genridge](https://github.com/friendly/genridge)
+
+[<img src='https://raw.githubusercontent.com/friendly/genridge/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/genridge)
+
+```{r genridge-desc, results='asis'}
+cat(desc("genridge"))
+```
+**Documentation**: [friendly.github.io/genridge](https://friendly.github.io/genridge/)
+
+
 ### [mvinfluence](https://github.com/friendly/mvinfluence)
 
 [<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/mvinfluence)
@@ -106,7 +116,7 @@ cat(desc("nestedLogit"))
 
 ### [HistData](https://github.com/friendly/HistData)
 
-[<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
+[<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
 ```{r HistData-desc, results='asis'}
 cat(desc("HistData"))
 ```
@@ -120,6 +130,14 @@ cat(desc("HistData"))
 cat(desc("Guerry"))
 ```
 **Documentation**: [rdrr.io/cran/Guerry/](https://rdrr.io/cran/Guerry/)
+
+### [WordPools](https://github.com/friendly/WordPools)
+
+[<img src='https://raw.githubusercontent.com/friendly/WordPools/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/WordPools)
+```{r WordPools-desc, results='asis'}
+cat(desc("WordPools"))
+```
+
 
 ### [Lahman](https://github.com/cdalzell/Lahman)
 
