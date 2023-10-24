@@ -12,7 +12,6 @@
 <!-- [<img src='https://simpleicons.vercel.app/stackoverflow/F47F24' alt='stackoverflow' height="60">](https://stackoverflow.com/users/user101089) -->
 
 <!-- using https://simpleicons.now.sh/:name/:color -->
-[<img src='https://simpleicons.vercel.app/github/4183C4' alt='github' height="60">](https://github.com/friendly)
 [<img src='https://www.datavis.ca/favicon.ico' alt='datavis.ca' height="60">](https://www.datavis.ca)
 [<img src='https://raw.githubusercontent.com/friendly/6135/master/images/icons/psy6135-icon.png' height="60">](https://friendly.github.io/6135/)
 [<img src='https://raw.githubusercontent.com/friendly/HistDataVis/main/images/favicon_io/android-chrome-192x192.png' height="60">](https://friendly.github.io/HistDataVis/)
@@ -60,6 +59,7 @@ See: [packages](packages.md) for some descriptions and links to documentation.
   + Hyphothesis-Error plots: [heplots](https://github.com/friendly/heplots); 
   + Canonical discriminant analysis: [candisc](https://github.com/friendly/candisc); 
   + Multivariate influence: [mvinfluence](https://github.com/friendly/mvinfluence);
+  + Visualizing collinearity diagnostics: [VisCollin](https://github.com/friendly/VisCollin);
   + Generalized ridge trace plots for ridge regression: [genridge](https://github.com/friendly/genridge);
   + Matrix linear algebra: [matlib](https://github.com/friendly/matlib);
   + Generalized ellipsoids: [gellipsoid](https://github.com/friendly/gellipsoid)
