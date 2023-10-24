@@ -18,6 +18,7 @@
 [<img src='https://raw.githubusercontent.com/friendly/heplots/master/man/figures/logo.png' height="60">](https://github.com/friendly/heplots)
 [<img src='https://raw.githubusercontent.com/friendly/candisc/master/candisc-logo.png' height="60">](https://github.com/friendly/candisc)
 [<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/logo.png' height="60">](https://github.com/friendly/mvinfluence)
+[<img src='https://raw.githubusercontent.com/friendly/VisCollin/master/man/figures/logo.png' height="60">](https://github.com/friendly/VisCollin)
 [<img src='https://raw.githubusercontent.com/friendly/vcdExtra/master/man/figures/logo.png' height="60">](https://github.com/friendly/vcdextra)
 [<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/logo.png' height="60">](https://github.com/friendly/HistData)
 [<img src='https://raw.githubusercontent.com/friendly/Guerry/master/man/figures/Guerry-logo.png' height="60">](https://github.com/friendly/Guerry)
