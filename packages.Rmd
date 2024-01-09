@@ -103,6 +103,14 @@ cat(desc("twoway"))
 ```
 **Documentation**: [rdrr.io/cran/twoway/](https://rdrr.io/cran/twoway/)
 
+### [ggbiplot](https://github.com/friendly/ggbiplot)
+
+[<img src='https://raw.githubusercontent.com/friendly/ggbiplot/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/ggbiplot)
+```{r ggbiplot-desc, results='asis'}
+cat(desc("ggbiplot"))
+```
+**Documentation**: [friendly.github.io/ggbiplot](http://friendly.github.io/ggbiplot/)
+
 ## Categorical data analysis {#CDA}
 
 ### [vcdExtra](https://github.com/friendly/vcdExtra)

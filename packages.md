@@ -49,9 +49,9 @@ canonical correlation analysis when all predictors are quantitative.
 Provides methods to calculate diagnostics for multicollinearity among
 predictors in a linear or generalized linear model. It also provides
 methods to visualize those diagnostics following Friendly & Kwan (2009),
-“Where’s Waldo: Visualizing Collinearity Diagnostics”, The American
-Statistician, 63, 56–65. These include better tabular presentation of
-collinearity diagnostics that highlight the important numbers, a
+“Where’s Waldo: Visualizing Collinearity Diagnostics”,
+<doi:10.1198/tast.2009.0012>. These include better tabular presentation
+of collinearity diagnostics that highlight the important numbers, a
 semi-graphic tableplot of the diagnostics to make warning and danger
 levels more salient, and a “collinearity biplot” of the smallest
 dimensions of predictor space, where collinearity is most apparent.
@@ -100,11 +100,15 @@ diagrams in 2D and 3D. **Documentation**:
 
 [<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/gellipsoid-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
 
-Represent generalized geometric ellipsoids with the “(U,D)”
+Represents generalized geometric ellipsoids with the “(U,D)”
 representation. It allows degenerate and/or unbounded ellipsoids,
 together with methods for linear and duality transformations, and for
-plotting. The ideas are described in Friendly, Monette & Fox (2013).
-<br/>
+plotting. Thus ellipsoids are naturally extended to include lines,
+hyperplanes, points, cylinders, etc. This permits exploration of a
+variety to statistical issues that can be visualized using ellipsoids as
+discussed by Friendly, Fox & Monette (2013), Elliptical Insights:
+Understanding Statistical Methods Through Elliptical Geometry
+<doi:10.1214/12-STS402>. <br/>
 <p>
 </p>
 
@@ -118,6 +122,19 @@ response. It implements Tukey’s Exploratory Data Analysis (1973) \<ISBN:
 978-0201076165\> methods, including a 1-degree-of-freedom test for
 row\*column ‘non-additivity’, linear in the row and column effects.
 **Documentation**: [rdrr.io/cran/twoway/](https://rdrr.io/cran/twoway/)
+
+### [ggbiplot](https://github.com/friendly/ggbiplot)
+
+[<img src='https://raw.githubusercontent.com/friendly/ggbiplot/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/ggbiplot)
+A ‘ggplot2’ based implementation of biplots, giving a representation of
+a dataset in a two dimensional space accounting for the greatest
+variance, together with variable vectors showing how the data variables
+relate to this space. It provides a replacement for stats::biplot(), but
+with many enhancements to control the analysis and graphical display. It
+implements biplot and scree plot methods which can be used with the
+results of prcomp(), princomp(), FactoMineR::PCA() or MASS::lda() and
+can be customized using ‘ggplot2’ techniques. **Documentation**:
+[friendly.github.io/ggbiplot](http://friendly.github.io/ggbiplot/)
 
 ## Categorical data analysis
 
@@ -194,7 +211,7 @@ baseball questions can be investigated. **Documentation**:
 ### [statquotes](https://github.com/friendly/statquotes)
 
 [<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
-Generates a random quotation from a data base of quotes on topics in
+Generates a random quotation from a database of quotes on topics in
 statistics, data visualization and science. Other functions allow
 searching the quotes database by key term tags, or authors or creating a
 word cloud. **Documentation**:
