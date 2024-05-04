@@ -55,6 +55,8 @@ of collinearity diagnostics that highlight the important numbers, a
 semi-graphic tableplot of the diagnostics to make warning and danger
 levels more salient, and a “collinearity biplot” of the smallest
 dimensions of predictor space, where collinearity is most apparent.
+**Documentation**:
+[rdrr.io/cran/VisCollin/](https://rdrr.io/cran/VisCollin/)
 
 ### [genridge](https://github.com/friendly/genridge)
 
@@ -132,8 +134,9 @@ variance, together with variable vectors showing how the data variables
 relate to this space. It provides a replacement for stats::biplot(), but
 with many enhancements to control the analysis and graphical display. It
 implements biplot and scree plot methods which can be used with the
-results of prcomp(), princomp(), FactoMineR::PCA() or MASS::lda() and
-can be customized using ‘ggplot2’ techniques. **Documentation**:
+results of prcomp(), princomp(), FactoMineR::PCA(), ade4::dudi.pca() or
+MASS::lda() and can be customized using ‘ggplot2’ techniques.
+**Documentation**:
 [friendly.github.io/ggbiplot](http://friendly.github.io/ggbiplot/)
 
 ## Categorical data analysis
@@ -177,7 +180,7 @@ interesting and important in the history of statistics and data
 visualization. The goal of the package is to make these available, both
 for instructional use and for historical research. Some of these present
 interesting challenges for graphics or analysis in R. **Documentation**:
-[rdrr.io/cran/HistData/](https://rdrr.io/cran/HistData/)
+[friendly.github.io/HistData/](https://friendly.github.io/HistData/)
 
 ### [Guerry](https://github.com/friendly/Guerry)
 
@@ -196,7 +199,7 @@ Collects several classical word pools used most often to provide lists
 of words in psychological studies of learning and memory. It provides a
 simple function, ‘pickList’ for selecting random samples of words within
 given ranges. **Documentation**:
-[rdrr.io/cran/WordPools/](https://rdrr.io/cran/WordPools/)
+[friendly.github.io/WordPools/](https://friendly.github.io/WordPools/)
 
 ### [Lahman](https://github.com/cdalzell/Lahman)
 

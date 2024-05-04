@@ -54,6 +54,7 @@ cat(desc("candisc"))
 ```{r VisCollin-desc, results='asis'}
 cat(desc("VisCollin"))
 ```
+**Documentation**: [rdrr.io/cran/VisCollin/](https://rdrr.io/cran/VisCollin/)
 
 ### [genridge](https://github.com/friendly/genridge)
 
@@ -137,7 +138,7 @@ cat(desc("nestedLogit"))
 ```{r HistData-desc, results='asis'}
 cat(desc("HistData"))
 ```
-**Documentation**: [rdrr.io/cran/HistData/](https://rdrr.io/cran/HistData/)
+**Documentation**: [friendly.github.io/HistData/](https://friendly.github.io/HistData/)
 
 
 ### [Guerry](https://github.com/friendly/Guerry)
@@ -154,7 +155,7 @@ cat(desc("Guerry"))
 ```{r WordPools-desc, results='asis'}
 cat(desc("WordPools"))
 ```
-**Documentation**: [rdrr.io/cran/WordPools/](https://rdrr.io/cran/WordPools/)
+**Documentation**: [friendly.github.io/WordPools/](https://friendly.github.io/WordPools/)
 
 
 ### [Lahman](https://github.com/cdalzell/Lahman)
