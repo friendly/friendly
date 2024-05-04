@@ -55,6 +55,8 @@ of collinearity diagnostics that highlight the important numbers, a
 semi-graphic tableplot of the diagnostics to make warning and danger
 levels more salient, and a “collinearity biplot” of the smallest
 dimensions of predictor space, where collinearity is most apparent.
+**Documentation**:
+[rdrr.io/cran/VisCollin/](https://rdrr.io/cran/VisCollin/)
 
 ### [genridge](https://github.com/friendly/genridge)
 
@@ -132,8 +134,9 @@ variance, together with variable vectors showing how the data variables
 relate to this space. It provides a replacement for stats::biplot(), but
 with many enhancements to control the analysis and graphical display. It
 implements biplot and scree plot methods which can be used with the
-results of prcomp(), princomp(), FactoMineR::PCA() or MASS::lda() and
-can be customized using ‘ggplot2’ techniques. **Documentation**:
+results of prcomp(), princomp(), FactoMineR::PCA(), ade4::dudi.pca() or
+MASS::lda() and can be customized using ‘ggplot2’ techniques.
+**Documentation**:
 [friendly.github.io/ggbiplot](http://friendly.github.io/ggbiplot/)
 
 ## Categorical data analysis

@@ -54,6 +54,7 @@ cat(desc("candisc"))
 ```{r VisCollin-desc, results='asis'}
 cat(desc("VisCollin"))
 ```
+**Documentation**: [rdrr.io/cran/VisCollin/](https://rdrr.io/cran/VisCollin/)
 
 ### [genridge](https://github.com/friendly/genridge)
 
