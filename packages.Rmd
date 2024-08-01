@@ -47,14 +47,14 @@ cat(desc("candisc"))
 ```
 **Documentation**: [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
-### [VisCollin](https://github.com/friendly/VisCollin)
+### [VisCollin](https://friendly.github.io/VisCollin)
 
 [<img src='https://raw.githubusercontent.com/friendly/VisCollin/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/VisCollin)
 
 ```{r VisCollin-desc, results='asis'}
 cat(desc("VisCollin"))
 ```
-**Documentation**: [rdrr.io/cran/VisCollin/](https://rdrr.io/cran/VisCollin/)
+**Documentation**: [friendly.github.io/VisCollin](https://friendly.github.io/VisCollin)
 
 ### [genridge](https://github.com/friendly/genridge)
 

@@ -42,7 +42,7 @@ canonical correlation analysis when all predictors are quantitative.
 **Documentation**:
 [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
-### [VisCollin](https://github.com/friendly/VisCollin)
+### [VisCollin](https://friendly.github.io/VisCollin)
 
 [<img src='https://raw.githubusercontent.com/friendly/VisCollin/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/VisCollin)
 
@@ -56,7 +56,7 @@ semi-graphic tableplot of the diagnostics to make warning and danger
 levels more salient, and a “collinearity biplot” of the smallest
 dimensions of predictor space, where collinearity is most apparent.
 **Documentation**:
-[rdrr.io/cran/VisCollin/](https://rdrr.io/cran/VisCollin/)
+[friendly.github.io/VisCollin](https://friendly.github.io/VisCollin)
 
 ### [genridge](https://github.com/friendly/genridge)
 
@@ -217,5 +217,6 @@ baseball questions can be investigated. **Documentation**:
 Generates a random quotation from a database of quotes on topics in
 statistics, data visualization and science. Other functions allow
 searching the quotes database by key term tags, or authors or creating a
-word cloud. **Documentation**:
+word cloud. The output is designed to be suitable for use at the
+console, in Rmarkdown and LaTeX. **Documentation**:
 [rdrr.io/cran/statquotes/](https://rdrr.io/cran/statquotes/)
