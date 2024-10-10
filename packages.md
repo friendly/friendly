@@ -123,7 +123,8 @@ plot for removable ‘non-additivity’ via a power transformation of the
 response. It implements Tukey’s Exploratory Data Analysis (1973) \<ISBN:
 978-0201076165\> methods, including a 1-degree-of-freedom test for
 row\*column ‘non-additivity’, linear in the row and column effects.
-**Documentation**: [rdrr.io/cran/twoway/](https://rdrr.io/cran/twoway/)
+**Documentation**:
+[friendly.github.io/twoway](https://friendly.github.io/twoway)
 
 ### [ggbiplot](https://github.com/friendly/ggbiplot)
 
@@ -190,7 +191,7 @@ others, and statistical and graphic methods related to Guerry’s “Moral
 Statistics of France”. The goal is to facilitate the exploration and
 development of statistical and graphic methods for multivariate data in
 a geospatial context of historical interest. **Documentation**:
-[rdrr.io/cran/Guerry/](https://rdrr.io/cran/Guerry/)
+<https://friendly.github.io/Guerry>
 
 ### [WordPools](https://github.com/friendly/WordPools)
 
@@ -209,7 +210,7 @@ R data.frames. It uses the data on pitching, hitting and fielding
 performance and other tables from 1871 through 2023, as recorded in the
 2024 version of the database. Documentation examples show how many
 baseball questions can be investigated. **Documentation**:
-[rdrr.io/cran/Lahman/](https://rdrr.io/cran/Lahman/)
+[cdalzell.github.io/Lahman](https://cdalzell.github.io/Lahman)
 
 ### [statquotes](https://github.com/friendly/statquotes)
 
