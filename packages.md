@@ -42,7 +42,7 @@ canonical correlation analysis when all predictors are quantitative.
 **Documentation**:
 [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
-### [VisCollin](https://github.com/friendly/VisCollin)
+### [VisCollin](https://friendly.github.io/VisCollin)
 
 [<img src='https://raw.githubusercontent.com/friendly/VisCollin/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/VisCollin)
 
@@ -56,7 +56,7 @@ semi-graphic tableplot of the diagnostics to make warning and danger
 levels more salient, and a “collinearity biplot” of the smallest
 dimensions of predictor space, where collinearity is most apparent.
 **Documentation**:
-[rdrr.io/cran/VisCollin/](https://rdrr.io/cran/VisCollin/)
+[friendly.github.io/VisCollin](https://friendly.github.io/VisCollin)
 
 ### [genridge](https://github.com/friendly/genridge)
 
