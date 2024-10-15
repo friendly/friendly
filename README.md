@@ -21,8 +21,8 @@
 [<img src='https://raw.githubusercontent.com/friendly/VisCollin/master/man/figures/logo.png' height="60">](https://github.com/friendly/VisCollin)
 [<img src='https://raw.githubusercontent.com/friendly/vcdExtra/master/man/figures/logo.png' height="60">](https://github.com/friendly/vcdextra)
 [<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/logo.png' height="60">](https://github.com/friendly/HistData)
-[<img src='https://raw.githubusercontent.com/friendly/Guerry/master/man/figures/Guerry-logo.png' height="60">](https://github.com/friendly/Guerry)
-[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height="60">](https://github.com/friendly/statquotes)
+[<img src='https://raw.githubusercontent.com/friendly/Guerry/master/man/figures/logo.png' height="60">](https://github.com/friendly/Guerry)
+[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/logo.png' height="60">](https://github.com/friendly/statquotes)
 [<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/logo.png' height="60">](https://github.com/cdalzell/Lahman)
 
 

@@ -168,10 +168,10 @@ cat(desc("Lahman"))
 
 ### [statquotes](https://github.com/friendly/statquotes)
 
-[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
+[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
 ```{r statquotes-desc, results='asis'}
 cat(desc("statquotes"))
 ```
-**Documentation**: [rdrr.io/cran/statquotes/](https://rdrr.io/cran/statquotes/)
+**Documentation**: [rdrr.io/cran/statquotes/](https://friendly.github.io/statquotes/)
 
 

@@ -214,10 +214,10 @@ baseball questions can be investigated. **Documentation**:
 
 ### [statquotes](https://github.com/friendly/statquotes)
 
-[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
+[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
 Generates a random quotation from a database of quotes on topics in
 statistics, data visualization and science. Other functions allow
 searching the quotes database by key term tags, or authors or creating a
 word cloud. The output is designed to be suitable for use at the
 console, in Rmarkdown and LaTeX. **Documentation**:
-[rdrr.io/cran/statquotes/](https://rdrr.io/cran/statquotes/)
+[rdrr.io/cran/statquotes/](https://friendly.github.io/statquotes/)
