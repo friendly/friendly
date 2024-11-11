@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 pkgs <- c("heplots", "candisc", "mvinfluence", "genridge", "VisCollin",
           "matlib", "gellipsoid", "twoway",
           "vcdExtra", "nestedLogit",  # "vcd",
-          "HistData", "Guerry", "Lahman" )
+          "HistData", "Guerry", "Lahman", "statquotes" )
 
 desc <- function(package) {
   packageDescription(package)$Description
@@ -88,11 +88,13 @@ cat(desc("matlib"))
 
 ### [gellipsoid](https://github.com/friendly/gellipsoid)
 
-[<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/gellipsoid-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
+[<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
 
 ```{r gellipsoid-desc, results='asis'}
 cat(desc("gellipsoid"))
 ```
+**Documentation**: [friendly.github.io/gellipsoid](https://friendly.github.io/gellipsoid/)
+
 <br/>
 <p></p>
 

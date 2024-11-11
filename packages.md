@@ -89,18 +89,19 @@ detect influential observations are provided. **Documentation**:
 [<img src='https://raw.githubusercontent.com/friendly/matlib/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/matlib)
 
 A collection of matrix functions for teaching and learning matrix linear
-algebra as used in multivariate statistical methods. These functions are
-mainly for tutorial purposes in learning matrix algebra ideas using R.
-In some cases, functions are provided for concepts available elsewhere
-in R, but where the function call or name is not obvious. In other
-cases, functions are provided to show or demonstrate an algorithm. In
-addition, a collection of functions are provided for drawing vector
-diagrams in 2D and 3D. **Documentation**:
+algebra as used in multivariate statistical methods. Many of these
+functions are designed for tutorial purposes in learning matrix algebra
+ideas using R. In some cases, functions are provided for concepts
+available elsewhere in R, but where the function call or name is not
+obvious. In other cases, functions are provided to show or demonstrate
+an algorithm. In addition, a collection of functions are provided for
+drawing vector diagrams in 2D and 3D and for rendering matrix
+expressions and equations in LaTeX. **Documentation**:
 [friendly.github.io/matlib](https://friendly.github.io/matlib/)
 
 ### [gellipsoid](https://github.com/friendly/gellipsoid)
 
-[<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/gellipsoid-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
+[<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
 
 Represents generalized geometric ellipsoids with the “(U,D)”
 representation. It allows degenerate and/or unbounded ellipsoids,
@@ -110,7 +111,10 @@ hyperplanes, points, cylinders, etc. This permits exploration of a
 variety to statistical issues that can be visualized using ellipsoids as
 discussed by Friendly, Fox & Monette (2013), Elliptical Insights:
 Understanding Statistical Methods Through Elliptical Geometry
-<doi:10.1214/12-STS402>. <br/>
+<doi:10.1214/12-STS402>. **Documentation**:
+[friendly.github.io/gellipsoid](https://friendly.github.io/gellipsoid/)
+
+<br/>
 <p>
 </p>
 
