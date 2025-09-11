@@ -52,6 +52,7 @@ I'm a developer of data visualization methods, mainly in R, and an historian of 
 - Book web pages: 
   + [DDAR: Discrete Data Analysis with R](http://ddar.datavis.ca/)
   + [History of Data Visualization](https://friendly.github.io/HistDataVis/)
+  + IN PROGRESS: [Visualizing Multivariate Data and Models in R](https://friendly.github.io/Vis-MLM-book/)
 
 #### R packages
 See: [packages](packages.md) for some descriptions and links to documentation.
