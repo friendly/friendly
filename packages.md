@@ -86,21 +86,22 @@ detect influential observations are provided. **Documentation**:
 
 ### [matlib](https://github.com/friendly/matlib)
 
-[<img src='https://raw.githubusercontent.com/friendly/matlib/master/matlib-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/matlib)
+[<img src='https://raw.githubusercontent.com/friendly/matlib/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/matlib)
 
 A collection of matrix functions for teaching and learning matrix linear
-algebra as used in multivariate statistical methods. These functions are
-mainly for tutorial purposes in learning matrix algebra ideas using R.
-In some cases, functions are provided for concepts available elsewhere
-in R, but where the function call or name is not obvious. In other
-cases, functions are provided to show or demonstrate an algorithm. In
-addition, a collection of functions are provided for drawing vector
-diagrams in 2D and 3D. **Documentation**:
+algebra as used in multivariate statistical methods. Many of these
+functions are designed for tutorial purposes in learning matrix algebra
+ideas using R. In some cases, functions are provided for concepts
+available elsewhere in R, but where the function call or name is not
+obvious. In other cases, functions are provided to show or demonstrate
+an algorithm. In addition, a collection of functions are provided for
+drawing vector diagrams in 2D and 3D and for rendering matrix
+expressions and equations in LaTeX. **Documentation**:
 [friendly.github.io/matlib](https://friendly.github.io/matlib/)
 
 ### [gellipsoid](https://github.com/friendly/gellipsoid)
 
-[<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/gellipsoid-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
+[<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
 
 Represents generalized geometric ellipsoids with the “(U,D)”
 representation. It allows degenerate and/or unbounded ellipsoids,
@@ -110,7 +111,10 @@ hyperplanes, points, cylinders, etc. This permits exploration of a
 variety to statistical issues that can be visualized using ellipsoids as
 discussed by Friendly, Fox & Monette (2013), Elliptical Insights:
 Understanding Statistical Methods Through Elliptical Geometry
-<doi:10.1214/12-STS402>. <br/>
+<doi:10.1214/12-STS402>. **Documentation**:
+[friendly.github.io/gellipsoid](https://friendly.github.io/gellipsoid/)
+
+<br/>
 <p>
 </p>
 
@@ -123,7 +127,8 @@ plot for removable ‘non-additivity’ via a power transformation of the
 response. It implements Tukey’s Exploratory Data Analysis (1973) \<ISBN:
 978-0201076165\> methods, including a 1-degree-of-freedom test for
 row\*column ‘non-additivity’, linear in the row and column effects.
-**Documentation**: [rdrr.io/cran/twoway/](https://rdrr.io/cran/twoway/)
+**Documentation**:
+[friendly.github.io/twoway](https://friendly.github.io/twoway)
 
 ### [ggbiplot](https://github.com/friendly/ggbiplot)
 
@@ -190,7 +195,7 @@ others, and statistical and graphic methods related to Guerry’s “Moral
 Statistics of France”. The goal is to facilitate the exploration and
 development of statistical and graphic methods for multivariate data in
 a geospatial context of historical interest. **Documentation**:
-[rdrr.io/cran/Guerry/](https://rdrr.io/cran/Guerry/)
+<https://friendly.github.io/Guerry>
 
 ### [WordPools](https://github.com/friendly/WordPools)
 
@@ -203,20 +208,20 @@ given ranges. **Documentation**:
 
 ### [Lahman](https://github.com/cdalzell/Lahman)
 
-[<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/Lahman_hex.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
+[<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
 Provides the tables from the ‘Sean Lahman Baseball Database’ as a set of
 R data.frames. It uses the data on pitching, hitting and fielding
-performance and other tables from 1871 through 2022, as recorded in the
-2023 version of the database. Documentation examples show how many
+performance and other tables from 1871 through 2023, as recorded in the
+2024 version of the database. Documentation examples show how many
 baseball questions can be investigated. **Documentation**:
-[rdrr.io/cran/Lahman/](https://rdrr.io/cran/Lahman/)
+[cdalzell.github.io/Lahman](https://cdalzell.github.io/Lahman)
 
 ### [statquotes](https://github.com/friendly/statquotes)
 
-[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
+[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
 Generates a random quotation from a database of quotes on topics in
 statistics, data visualization and science. Other functions allow
 searching the quotes database by key term tags, or authors or creating a
 word cloud. The output is designed to be suitable for use at the
 console, in Rmarkdown and LaTeX. **Documentation**:
-[rdrr.io/cran/statquotes/](https://rdrr.io/cran/statquotes/)
+[rdrr.io/cran/statquotes/](https://friendly.github.io/statquotes/)

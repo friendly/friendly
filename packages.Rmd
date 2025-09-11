@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 pkgs <- c("heplots", "candisc", "mvinfluence", "genridge", "VisCollin",
           "matlib", "gellipsoid", "twoway",
           "vcdExtra", "nestedLogit",  # "vcd",
-          "HistData", "Guerry", "Lahman" )
+          "HistData", "Guerry", "Lahman", "statquotes" )
 
 desc <- function(package) {
   packageDescription(package)$Description
@@ -77,7 +77,7 @@ cat(desc("mvinfluence"))
 
 ### [matlib](https://github.com/friendly/matlib)
 
-[<img src='https://raw.githubusercontent.com/friendly/matlib/master/matlib-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/matlib)
+[<img src='https://raw.githubusercontent.com/friendly/matlib/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/matlib)
 
 
 ```{r matlib-desc, results='asis'}
@@ -88,11 +88,13 @@ cat(desc("matlib"))
 
 ### [gellipsoid](https://github.com/friendly/gellipsoid)
 
-[<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/gellipsoid-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
+[<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
 
 ```{r gellipsoid-desc, results='asis'}
 cat(desc("gellipsoid"))
 ```
+**Documentation**: [friendly.github.io/gellipsoid](https://friendly.github.io/gellipsoid/)
+
 <br/>
 <p></p>
 
@@ -102,7 +104,7 @@ cat(desc("gellipsoid"))
 ```{r twoway-desc, results='asis'}
 cat(desc("twoway"))
 ```
-**Documentation**: [rdrr.io/cran/twoway/](https://rdrr.io/cran/twoway/)
+**Documentation**: [friendly.github.io/twoway](https://friendly.github.io/twoway)
 
 ### [ggbiplot](https://github.com/friendly/ggbiplot)
 
@@ -147,7 +149,7 @@ cat(desc("HistData"))
 ```{r Guerry-desc, results='asis'}
 cat(desc("Guerry"))
 ```
-**Documentation**: [rdrr.io/cran/Guerry/](https://rdrr.io/cran/Guerry/)
+**Documentation**: [https://friendly.github.io/Guerry](https://friendly.github.io/Guerry)
 
 ### [WordPools](https://github.com/friendly/WordPools)
 
@@ -160,18 +162,18 @@ cat(desc("WordPools"))
 
 ### [Lahman](https://github.com/cdalzell/Lahman)
 
-[<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/Lahman_hex.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
+[<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
 ```{r Lahman-desc, results='asis'}
 cat(desc("Lahman"))
 ```
-**Documentation**: [rdrr.io/cran/Lahman/](https://rdrr.io/cran/Lahman/)
+**Documentation**: [cdalzell.github.io/Lahman](https://cdalzell.github.io/Lahman)
 
 ### [statquotes](https://github.com/friendly/statquotes)
 
-[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
+[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
 ```{r statquotes-desc, results='asis'}
 cat(desc("statquotes"))
 ```
-**Documentation**: [rdrr.io/cran/statquotes/](https://rdrr.io/cran/statquotes/)
+**Documentation**: [rdrr.io/cran/statquotes/](https://friendly.github.io/statquotes/)
 
 
