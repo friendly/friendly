@@ -54,6 +54,11 @@ I'm a developer of data visualization methods, mainly in R, and an historian of 
   + [History of Data Visualization](https://friendly.github.io/HistDataVis/)
   + IN PROGRESS: [Visualizing Multivariate Data and Models in R](https://friendly.github.io/Vis-MLM-book/)
 
+#### Graduate Courses
+
+* Psy 6135 [Psychology of Data Visualization](https://friendly.github.io/6135/)
+* Psy 6136 [Categorical Data Analysis](https://friendly.github.io/psy6136/)
+
 #### R packages
 See: [packages](packages.md) for some descriptions and links to documentation.
 
