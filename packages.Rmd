@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 pkgs <- c("heplots", "candisc", "mvinfluence", "genridge", "VisCollin",
           "matlib", "gellipsoid", "twoway",
           "vcdExtra", "nestedLogit",  # "vcd",
-          "HistData", "Guerry", "Lahman", "statquotes" )
+          "HistData", "Guerry", "Lahman", "statquotes", "ggCheysson" )
 
 desc <- function(package) {
   packageDescription(package)$Description
@@ -26,7 +26,7 @@ also provided.
 
 Topics: [Multivariate linear models](#MLM) || [Categorical data analysis](#CDA) || [Data](#DATA)
 
-## Multivariate linear models {#MLM}
+## ✨ Multivariate linear models {#MLM}
 
 ### [heplots](https://github.com/friendly/heplots)
 
@@ -40,7 +40,7 @@ cat(desc("heplots"))
 
 ### [candisc](https://github.com/friendly/candisc)
 
-[<img src='https://raw.githubusercontent.com/friendly/candisc/master/candisc-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/candisc)
+[<img src='https://raw.githubusercontent.com/friendly/candisc/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/candisc)
 
 ```{r candisc-desc, results='asis'}
 cat(desc("candisc"))
@@ -114,7 +114,7 @@ cat(desc("ggbiplot"))
 ```
 **Documentation**: [friendly.github.io/ggbiplot](http://friendly.github.io/ggbiplot/)
 
-## Categorical data analysis {#CDA}
+## ✨ Categorical data analysis {#CDA}
 
 ### [vcdExtra](https://github.com/friendly/vcdExtra)
 
@@ -132,7 +132,7 @@ cat(desc("nestedLogit"))
 ```
 **Documentation**: [friendly.github.io/nestedLogit](https://friendly.github.io/nestedLogit/)
 
-## Data {#DATA}
+## 🗃️  Data {#DATA}
 
 ### [HistData](https://github.com/friendly/HistData)
 
@@ -174,6 +174,14 @@ cat(desc("Lahman"))
 ```{r statquotes-desc, results='asis'}
 cat(desc("statquotes"))
 ```
-**Documentation**: [rdrr.io/cran/statquotes/](https://friendly.github.io/statquotes/)
+**Documentation**: [https://friendly.github.io/statquotes/](https://friendly.github.io/statquotes/)
+
+### [ggCheysson](https://github.com/friendly/ggCheysson)
+
+[<img src='https://raw.githubusercontent.com/friendly/ggCheysson/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/ggCheysson)
+```{r ggCheysson-desc, results='asis'}
+cat(desc("ggCheysson"))
+```
+**Documentation**: [https://friendly.github.io/ggCheysson/](https://friendly.github.io/ggCheysson/)
 
 

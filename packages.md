@@ -8,7 +8,7 @@ Links to the package **Documentation** are also provided.
 Topics: [Multivariate linear models](#MLM) \|\| [Categorical data
 analysis](#CDA) \|\| [Data](#DATA)
 
-## Multivariate linear models
+## ✨ Multivariate linear models
 
 ### [heplots](https://github.com/friendly/heplots)
 
@@ -18,14 +18,16 @@ Provides HE plot and other functions for visualizing hypothesis tests in
 multivariate linear models. HE plots represent
 sums-of-squares-and-products matrices for linear hypotheses and for
 error using ellipses (in two dimensions) and ellipsoids (in three
-dimensions). The related ‘candisc’ package provides visualizations in a
-reduced-rank canonical discriminant space when there are more than a few
-response variables. **Documentation**:
+dimensions). It also provides other tools for analysis and graphical
+display of the models such as robust methods and homogeneity of variance
+covariance matrices. The related ‘candisc’ package provides
+visualizations in a reduced-rank canonical discriminant space when there
+are more than a few response variables. **Documentation**:
 [friendly.github.io/heplots](http://friendly.github.io/heplots/)
 
 ### [candisc](https://github.com/friendly/candisc)
 
-[<img src='https://raw.githubusercontent.com/friendly/candisc/master/candisc-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/candisc)
+[<img src='https://raw.githubusercontent.com/friendly/candisc/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/candisc)
 
 Functions for computing and visualizing generalized canonical
 discriminant analyses and canonical correlation analysis for a
@@ -39,6 +41,7 @@ scores and vectors for each term. The graphic functions provide low-rank
 (1D, 2D, 3D) visualizations of terms in an ‘mlm’ via the ‘plot.candisc’
 and ‘heplot.candisc’ methods. Related plots are now provided for
 canonical correlation analysis when all predictors are quantitative.
+Methods for linear discriminant analysis are now included.
 **Documentation**:
 [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
@@ -116,6 +119,7 @@ Understanding Statistical Methods Through Elliptical Geometry
 
 <br/>
 <p>
+
 </p>
 
 ### [two way](https://github.com/friendly/twoway)
@@ -144,7 +148,7 @@ MASS::lda() and can be customized using ‘ggplot2’ techniques.
 **Documentation**:
 [friendly.github.io/ggbiplot](http://friendly.github.io/ggbiplot/)
 
-## Categorical data analysis
+## ✨ Categorical data analysis
 
 ### [vcdExtra](https://github.com/friendly/vcdExtra)
 
@@ -175,7 +179,7 @@ Analysis and Generalized Linear Models”, 3rd Ed., ISBN 1452205663.
 **Documentation**:
 [friendly.github.io/nestedLogit](https://friendly.github.io/nestedLogit/)
 
-## Data
+## 🗃️ Data
 
 ### [HistData](https://github.com/friendly/HistData)
 
@@ -211,8 +215,8 @@ given ranges. **Documentation**:
 [<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
 Provides the tables from the ‘Sean Lahman Baseball Database’ as a set of
 R data.frames. It uses the data on pitching, hitting and fielding
-performance and other tables from 1871 through 2023, as recorded in the
-2024 version of the database. Documentation examples show how many
+performance and other tables from 1871 through 2024, as recorded in the
+2025 version of the database. Documentation examples show how many
 baseball questions can be investigated. **Documentation**:
 [cdalzell.github.io/Lahman](https://cdalzell.github.io/Lahman)
 
@@ -224,4 +228,12 @@ statistics, data visualization and science. Other functions allow
 searching the quotes database by key term tags, or authors or creating a
 word cloud. The output is designed to be suitable for use at the
 console, in Rmarkdown and LaTeX. **Documentation**:
-[rdrr.io/cran/statquotes/](https://friendly.github.io/statquotes/)
+<https://friendly.github.io/statquotes/>
+
+### [ggCheysson](https://github.com/friendly/ggCheysson)
+
+[<img src='https://raw.githubusercontent.com/friendly/ggCheysson/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/ggCheysson)
+Implements stylistic elements (fonts, hachure patterns, color palettes)
+used by ‘Emile Cheysson’ in the ‘Albums de Statistique Graphique’,
+sometimes called the pinacle of the Golden Age of Statistical Graphics.
+**Documentation**: <https://friendly.github.io/ggCheysson/>

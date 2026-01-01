@@ -78,3 +78,5 @@ See: [packages](packages.md) for some descriptions and links to documentation.
   + Word pools used in studies of learning and memory: [WordPools](https://github.com/friendly/WordPools)
   + The Lahman Baseball Data archive: [Lahman](https://github.com/cdalzell/Lahman)
   + Quotes on statistics: [statquotes](https://github.com/friendly/statquotes)
+  + ggplot2 color palettes, patterns, fonts in the style of Emile Cheysson [ggCheysson](https://github.com/friendly/ggCheysson)
+  
