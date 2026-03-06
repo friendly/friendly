@@ -8,7 +8,7 @@ Links to the package **Documentation** are also provided.
 Topics: [Multivariate linear models](#MLM) \|\| [Categorical data
 analysis](#CDA) \|\| [Data](#DATA)
 
-## Multivariate linear models
+## ✨ Multivariate linear models
 
 ### [heplots](https://github.com/friendly/heplots)
 
@@ -44,6 +44,22 @@ canonical correlation analysis when all predictors are quantitative.
 Methods for linear discriminant analysis are now included.
 **Documentation**:
 [friendly.github.io/candisc](https://friendly.github.io/candisc/)
+
+### [VisCollin](https://friendly.github.io/VisCollin)
+
+[<img src='https://raw.githubusercontent.com/friendly/VisCollin/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/VisCollin)
+
+Provides methods to calculate diagnostics for multicollinearity among
+predictors in a linear or generalized linear model. It also provides
+methods to visualize those diagnostics following Friendly & Kwan (2009),
+“Where’s Waldo: Visualizing Collinearity Diagnostics”,
+<doi:10.1198/tast.2009.0012>. These include better tabular presentation
+of collinearity diagnostics that highlight the important numbers, a
+semi-graphic tableplot of the diagnostics to make warning and danger
+levels more salient, and a “collinearity biplot” of the smallest
+dimensions of predictor space, where collinearity is most apparent.
+**Documentation**:
+[friendly.github.io/VisCollin](https://friendly.github.io/VisCollin)
 
 ### [genridge](https://github.com/friendly/genridge)
 
@@ -88,7 +104,7 @@ expressions and equations in LaTeX. **Documentation**:
 
 ### [gellipsoid](https://github.com/friendly/gellipsoid)
 
-[<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/gellipsoid-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
+[<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
 
 Represents generalized geometric ellipsoids with the “(U,D)”
 representation. It allows degenerate and/or unbounded ellipsoids,
@@ -98,7 +114,14 @@ hyperplanes, points, cylinders, etc. This permits exploration of a
 variety to statistical issues that can be visualized using ellipsoids as
 discussed by Friendly, Fox & Monette (2013), Elliptical Insights:
 Understanding Statistical Methods Through Elliptical Geometry
+<<<<<<< HEAD
 <doi:10.1214/12-STS402>. <br/>
+=======
+<doi:10.1214/12-STS402>. **Documentation**:
+[friendly.github.io/gellipsoid](https://friendly.github.io/gellipsoid/)
+
+<br/>
+>>>>>>> 1bec6fc801c63455d28dcc2525dd36e7dfb5ffdc
 <p>
 
 </p>
@@ -112,9 +135,24 @@ plot for removable ‘non-additivity’ via a power transformation of the
 response. It implements Tukey’s Exploratory Data Analysis (1973) \<ISBN:
 978-0201076165\> methods, including a 1-degree-of-freedom test for
 row\*column ‘non-additivity’, linear in the row and column effects.
-**Documentation**: [rdrr.io/cran/twoway/](https://rdrr.io/cran/twoway/)
+**Documentation**:
+[friendly.github.io/twoway](https://friendly.github.io/twoway)
 
-## Categorical data analysis
+### [ggbiplot](https://github.com/friendly/ggbiplot)
+
+[<img src='https://raw.githubusercontent.com/friendly/ggbiplot/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/ggbiplot)
+A ‘ggplot2’ based implementation of biplots, giving a representation of
+a dataset in a two dimensional space accounting for the greatest
+variance, together with variable vectors showing how the data variables
+relate to this space. It provides a replacement for stats::biplot(), but
+with many enhancements to control the analysis and graphical display. It
+implements biplot and scree plot methods which can be used with the
+results of prcomp(), princomp(), FactoMineR::PCA(), ade4::dudi.pca() or
+MASS::lda() and can be customized using ‘ggplot2’ techniques.
+**Documentation**:
+[friendly.github.io/ggbiplot](http://friendly.github.io/ggbiplot/)
+
+## ✨ Categorical data analysis
 
 ### [vcdExtra](https://github.com/friendly/vcdExtra)
 
@@ -145,7 +183,7 @@ Analysis and Generalized Linear Models”, 3rd Ed., ISBN 1452205663.
 **Documentation**:
 [friendly.github.io/nestedLogit](https://friendly.github.io/nestedLogit/)
 
-## Data
+## 🗃️ Data
 
 ### [HistData](https://github.com/friendly/HistData)
 
@@ -155,7 +193,7 @@ interesting and important in the history of statistics and data
 visualization. The goal of the package is to make these available, both
 for instructional use and for historical research. Some of these present
 interesting challenges for graphics or analysis in R. **Documentation**:
-[rdrr.io/cran/HistData/](https://rdrr.io/cran/HistData/)
+[friendly.github.io/HistData/](https://friendly.github.io/HistData/)
 
 ### [Guerry](https://github.com/friendly/Guerry)
 
@@ -165,7 +203,16 @@ others, and statistical and graphic methods related to Guerry’s “Moral
 Statistics of France”. The goal is to facilitate the exploration and
 development of statistical and graphic methods for multivariate data in
 a geospatial context of historical interest. **Documentation**:
-[rdrr.io/cran/Guerry/](https://rdrr.io/cran/Guerry/)
+<https://friendly.github.io/Guerry>
+
+### [WordPools](https://github.com/friendly/WordPools)
+
+[<img src='https://raw.githubusercontent.com/friendly/WordPools/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/WordPools)
+Collects several classical word pools used most often to provide lists
+of words in psychological studies of learning and memory. It provides a
+simple function, ‘pickList’ for selecting random samples of words within
+given ranges. **Documentation**:
+[friendly.github.io/WordPools/](https://friendly.github.io/WordPools/)
 
 ### [Lahman](https://github.com/cdalzell/Lahman)
 
@@ -175,7 +222,7 @@ R data.frames. It uses the data on pitching, hitting and fielding
 performance and other tables from 1871 through 2024, as recorded in the
 2025 version of the database. Documentation examples show how many
 baseball questions can be investigated. **Documentation**:
-[rdrr.io/cran/Lahman/](https://rdrr.io/cran/Lahman/)
+[cdalzell.github.io/Lahman](https://cdalzell.github.io/Lahman)
 
 ### [statquotes](https://github.com/friendly/statquotes)
 
@@ -185,11 +232,16 @@ statistics, data visualization and science. Other functions allow
 searching the quotes database by key term tags, or authors or creating a
 word cloud. The output is designed to be suitable for use at the
 console, in Rmarkdown and LaTeX. **Documentation**:
+<<<<<<< HEAD
 [rdrr.io/cran/statquotes/](https://rdrr.io/cran/statquotes/)
+=======
+<https://friendly.github.io/statquotes/>
+>>>>>>> 1bec6fc801c63455d28dcc2525dd36e7dfb5ffdc
 
 ### [ggCheysson](https://github.com/friendly/ggCheysson)
 
 [<img src='https://raw.githubusercontent.com/friendly/ggCheysson/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/ggCheysson)
+<<<<<<< HEAD
 Implements for ‘ggplot2’ the stylistic elements (fonts, hatched
 patterns, color palettes) used by ‘Emile Cheysson’ in the ‘Albums de
 Statistique Graphique’, sometimes called the pinnacle of the Golden Age
@@ -215,3 +267,9 @@ to print their names in their actual color to give a direct impression
 of the color, like “red” shown in red, or “blue” shown in blue.
 **Documentation**:
 [friendly.github.io/colorize](https://friendly.github.io/colorize/)
+=======
+Implements stylistic elements (fonts, hachure patterns, color palettes)
+used by ‘Emile Cheysson’ in the ‘Albums de Statistique Graphique’,
+sometimes called the pinacle of the Golden Age of Statistical Graphics.
+**Documentation**: <https://friendly.github.io/ggCheysson/>
+>>>>>>> 1bec6fc801c63455d28dcc2525dd36e7dfb5ffdc
