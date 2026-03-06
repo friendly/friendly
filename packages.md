@@ -18,14 +18,16 @@ Provides HE plot and other functions for visualizing hypothesis tests in
 multivariate linear models. HE plots represent
 sums-of-squares-and-products matrices for linear hypotheses and for
 error using ellipses (in two dimensions) and ellipsoids (in three
-dimensions). The related ‘candisc’ package provides visualizations in a
-reduced-rank canonical discriminant space when there are more than a few
-response variables. **Documentation**:
+dimensions). It also provides other tools for analysis and graphical
+display of the models such as robust methods and homogeneity of variance
+covariance matrices. The related ‘candisc’ package provides
+visualizations in a reduced-rank canonical discriminant space when there
+are more than a few response variables. **Documentation**:
 [friendly.github.io/heplots](http://friendly.github.io/heplots/)
 
 ### [candisc](https://github.com/friendly/candisc)
 
-[<img src='https://raw.githubusercontent.com/friendly/candisc/master/candisc-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/candisc)
+[<img src='https://raw.githubusercontent.com/friendly/candisc/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/candisc)
 
 Functions for computing and visualizing generalized canonical
 discriminant analyses and canonical correlation analysis for a
@@ -39,6 +41,7 @@ scores and vectors for each term. The graphic functions provide low-rank
 (1D, 2D, 3D) visualizations of terms in an ‘mlm’ via the ‘plot.candisc’
 and ‘heplot.candisc’ methods. Related plots are now provided for
 canonical correlation analysis when all predictors are quantitative.
+Methods for linear discriminant analysis are now included.
 **Documentation**:
 [friendly.github.io/candisc](https://friendly.github.io/candisc/)
 
@@ -70,28 +73,34 @@ detect influential observations are provided. **Documentation**:
 
 ### [matlib](https://github.com/friendly/matlib)
 
-[<img src='https://raw.githubusercontent.com/friendly/matlib/master/matlib-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/matlib)
+[<img src='https://raw.githubusercontent.com/friendly/matlib/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/matlib)
 
 A collection of matrix functions for teaching and learning matrix linear
-algebra as used in multivariate statistical methods. These functions are
-mainly for tutorial purposes in learning matrix algebra ideas using R.
-In some cases, functions are provided for concepts available elsewhere
-in R, but where the function call or name is not obvious. In other
-cases, functions are provided to show or demonstrate an algorithm. In
-addition, a collection of functions are provided for drawing vector
-diagrams in 2D and 3D. **Documentation**:
+algebra as used in multivariate statistical methods. Many of these
+functions are designed for tutorial purposes in learning matrix algebra
+ideas using R. In some cases, functions are provided for concepts
+available elsewhere in R, but where the function call or name is not
+obvious. In other cases, functions are provided to show or demonstrate
+an algorithm. In addition, a collection of functions are provided for
+drawing vector diagrams in 2D and 3D and for rendering matrix
+expressions and equations in LaTeX. **Documentation**:
 [friendly.github.io/matlib](https://friendly.github.io/matlib/)
 
 ### [gellipsoid](https://github.com/friendly/gellipsoid)
 
 [<img src='https://raw.githubusercontent.com/friendly/gellipsoid/master/man/figures/gellipsoid-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/gellipsoid)
 
-Represent generalized geometric ellipsoids with the “(U,D)”
+Represents generalized geometric ellipsoids with the “(U,D)”
 representation. It allows degenerate and/or unbounded ellipsoids,
 together with methods for linear and duality transformations, and for
-plotting. The ideas are described in Friendly, Monette & Fox (2013).
-<br/>
+plotting. Thus ellipsoids are naturally extended to include lines,
+hyperplanes, points, cylinders, etc. This permits exploration of a
+variety to statistical issues that can be visualized using ellipsoids as
+discussed by Friendly, Fox & Monette (2013), Elliptical Insights:
+Understanding Statistical Methods Through Elliptical Geometry
+<doi:10.1214/12-STS402>. <br/>
 <p>
+
 </p>
 
 ### [two way](https://github.com/friendly/twoway)
@@ -126,19 +135,21 @@ Data Analysis with R” by Michael Friendly and David Meyer.
 [<img src='https://raw.githubusercontent.com/friendly/nestedLogit/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/nestedLogit)
 Provides functions for specifying and fitting nested dichotomy logistic
 regression models for a multi-category response and methods for
-summarising those models. Nested dichotomies are statistically
-independent, and hence provide an additive decomposition of tests for
-the overall ‘polytomous’ response. When the dichotomies make sense
-substantively, this method can be a simpler alternative to the standard
-‘multinomial’ logistic model which compares response categories to a
-reference level. **Documentation**:
+summarising and plotting those models. Nested dichotomies are
+statistically independent, and hence provide an additive decomposition
+of tests for the overall ‘polytomous’ response. When the dichotomies
+make sense substantively, this method can be a simpler alternative to
+the standard ‘multinomial’ logistic model which compares response
+categories to a reference level. See: J. Fox (2016), “Applied Regression
+Analysis and Generalized Linear Models”, 3rd Ed., ISBN 1452205663.
+**Documentation**:
 [friendly.github.io/nestedLogit](https://friendly.github.io/nestedLogit/)
 
 ## Data
 
 ### [HistData](https://github.com/friendly/HistData)
 
-[<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
+[<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
 The ‘HistData’ package provides a collection of small data sets that are
 interesting and important in the history of statistics and data
 visualization. The goal of the package is to make these available, both
@@ -158,19 +169,49 @@ a geospatial context of historical interest. **Documentation**:
 
 ### [Lahman](https://github.com/cdalzell/Lahman)
 
-[<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/Lahman_hex.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
+[<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
 Provides the tables from the ‘Sean Lahman Baseball Database’ as a set of
 R data.frames. It uses the data on pitching, hitting and fielding
-performance and other tables from 1871 through 2021, as recorded in the
-2022 version of the database. Documentation examples show how many
+performance and other tables from 1871 through 2024, as recorded in the
+2025 version of the database. Documentation examples show how many
 baseball questions can be investigated. **Documentation**:
 [rdrr.io/cran/Lahman/](https://rdrr.io/cran/Lahman/)
 
 ### [statquotes](https://github.com/friendly/statquotes)
 
-[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
-Generates a random quotation from a data base of quotes on topics in
+[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
+Generates a random quotation from a database of quotes on topics in
 statistics, data visualization and science. Other functions allow
 searching the quotes database by key term tags, or authors or creating a
-word cloud. **Documentation**:
+word cloud. The output is designed to be suitable for use at the
+console, in Rmarkdown and LaTeX. **Documentation**:
 [rdrr.io/cran/statquotes/](https://rdrr.io/cran/statquotes/)
+
+### [ggCheysson](https://github.com/friendly/ggCheysson)
+
+[<img src='https://raw.githubusercontent.com/friendly/ggCheysson/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/ggCheysson)
+Implements for ‘ggplot2’ the stylistic elements (fonts, hatched
+patterns, color palettes) used by ‘Emile Cheysson’ in the ‘Albums de
+Statistique Graphique’, sometimes called the pinnacle of the Golden Age
+of Statistical Graphics. **Documentation**:
+[friendly.github.io/ggCheysson](https://friendly.github.io/ggCheysson/)
+
+### [CASIdata](https://github.com/friendly/CASIdata)
+
+[<img src='https://raw.githubusercontent.com/friendly/CASIdata/main/man/figures/logo.jpg' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/CASIdata)
+Provides the datasets from Efron & Hastie (2016, ISBN: 9781108107952),
+“Computer Age Statistical Inference: Algorithms, Evidence, and Data
+Science”, in an accessible R format for those who want to use them for
+study or to try to reproduce analyses from the book. **Documentation**:
+[friendly.github.io/CASIdata](https://friendly.github.io/CASIdata/)
+
+### [colorize](https://github.com/friendly/colorize)
+
+[<img src='https://raw.githubusercontent.com/friendly/colorize/master/man/figures/logo.jpg' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/colorize)
+Provides some simple functions for printing text in color in ‘markdown’
+or ‘Quarto’ documents, to be rendered as HTML or LaTeX. This is useful
+when writing about the use of colors in graphs or tables, where you want
+to print their names in their actual color to give a direct impression
+of the color, like “red” shown in red, or “blue” shown in blue.
+**Documentation**:
+[friendly.github.io/colorize](https://friendly.github.io/colorize/)

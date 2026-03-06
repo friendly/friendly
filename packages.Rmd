@@ -11,7 +11,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r packages}
 pkgs <- c("heplots", "candisc", "mvinfluence", "matlib", "gellipsoid", "twoway",
           "vcdExtra", "nestedLogit",  # "vcd",
-          "HistData", "Guerry", "Lahman" )
+          "HistData", "Guerry", "Lahman",
+          "ggCheysson", "CASIdata", "colorize" )
 
 desc <- function(package) {
   packageDescription(package)$Description
@@ -39,7 +40,7 @@ cat(desc("heplots"))
 
 ### [candisc](https://github.com/friendly/candisc)
 
-[<img src='https://raw.githubusercontent.com/friendly/candisc/master/candisc-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/candisc)
+[<img src='https://raw.githubusercontent.com/friendly/candisc/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/candisc)
 
 ```{r candisc-desc, results='asis'}
 cat(desc("candisc"))
@@ -67,7 +68,7 @@ cat(desc("mvinfluence"))
 
 ### [matlib](https://github.com/friendly/matlib)
 
-[<img src='https://raw.githubusercontent.com/friendly/matlib/master/matlib-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/matlib)
+[<img src='https://raw.githubusercontent.com/friendly/matlib/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/matlib)
 
 
 ```{r matlib-desc, results='asis'}
@@ -116,7 +117,7 @@ cat(desc("nestedLogit"))
 
 ### [HistData](https://github.com/friendly/HistData)
 
-[<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
+[<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/HistData)
 ```{r HistData-desc, results='asis'}
 cat(desc("HistData"))
 ```
@@ -133,7 +134,7 @@ cat(desc("Guerry"))
 
 ### [Lahman](https://github.com/cdalzell/Lahman)
 
-[<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/Lahman_hex.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
+[<img src='https://raw.githubusercontent.com/cdalzell/Lahman/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/cdalzell/Lahman)
 ```{r Lahman-desc, results='asis'}
 cat(desc("Lahman"))
 ```
@@ -141,10 +142,34 @@ cat(desc("Lahman"))
 
 ### [statquotes](https://github.com/friendly/statquotes)
 
-[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/statquotes-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
+[<img src='https://raw.githubusercontent.com/friendly/statquotes/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/statquotes)
 ```{r statquotes-desc, results='asis'}
 cat(desc("statquotes"))
 ```
 **Documentation**: [rdrr.io/cran/statquotes/](https://rdrr.io/cran/statquotes/)
+
+### [ggCheysson](https://github.com/friendly/ggCheysson)
+
+[<img src='https://raw.githubusercontent.com/friendly/ggCheysson/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/ggCheysson)
+```{r ggCheysson-desc, results='asis'}
+cat(desc("ggCheysson"))
+```
+**Documentation**: [friendly.github.io/ggCheysson](https://friendly.github.io/ggCheysson/)
+
+### [CASIdata](https://github.com/friendly/CASIdata)
+
+[<img src='https://raw.githubusercontent.com/friendly/CASIdata/main/man/figures/logo.jpg' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/CASIdata)
+```{r CASIdata-desc, results='asis'}
+cat(desc("CASIdata"))
+```
+**Documentation**: [friendly.github.io/CASIdata](https://friendly.github.io/CASIdata/)
+
+### [colorize](https://github.com/friendly/colorize)
+
+[<img src='https://raw.githubusercontent.com/friendly/colorize/master/man/figures/logo.jpg' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/colorize)
+```{r colorize-desc, results='asis'}
+cat(desc("colorize"))
+```
+**Documentation**: [friendly.github.io/colorize](https://friendly.github.io/colorize/)
 
 

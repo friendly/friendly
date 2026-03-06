@@ -18,7 +18,7 @@
 [<img src='https://raw.githubusercontent.com/friendly/6135/master/images/icons/psy6135-icon.png' height="60">](https://friendly.github.io/6135/)
 [<img src='https://raw.githubusercontent.com/friendly/HistDataVis/main/images/favicon_io/android-chrome-192x192.png' height="60">](https://friendly.github.io/HistDataVis/)
 [<img src='https://raw.githubusercontent.com/friendly/heplots/master/man/figures/logo.png' height="60">](https://github.com/friendly/heplots)
-[<img src='https://raw.githubusercontent.com/friendly/candisc/master/candisc-logo.png' height="60">](https://github.com/friendly/candisc)
+[<img src='https://raw.githubusercontent.com/friendly/candisc/master/man/figures/logo.png' height="60">](https://github.com/friendly/candisc)
 [<img src='https://raw.githubusercontent.com/friendly/mvinfluence/master/man/figures/logo.png' height="60">](https://github.com/friendly/mvinfluence)
 [<img src='https://raw.githubusercontent.com/friendly/vcdExtra/master/man/figures/logo.png' height="60">](https://github.com/friendly/vcdextra)
 [<img src='https://raw.githubusercontent.com/friendly/HistData/master/man/figures/HistData-logo.png' height="60">](https://github.com/friendly/HistData)
@@ -76,3 +76,6 @@ See: [packages](packages.md) for some descriptions and links to documentation.
   + Data from Andre-Michel Guerry, _Moral Statistics of France_: [Guerry](https://github.com/friendly/Guerry);
   + The Lahman Baseball Data archive: [Lahman](https://github.com/cdalzell/Lahman)
   + Quotes on statistics: [statquotes](https://github.com/friendly/statquotes)
+  + ggplot2 color palettes and themes from Cheysson's _Albums de Statistique Graphique_: [ggCheysson](https://github.com/friendly/ggCheysson)
+  + Datasets from Efron & Hastie's _Computer Age Statistical Inference_: [CASIdata](https://github.com/friendly/CASIdata)
+  + Render text in color in R Markdown/Quarto documents: [colorize](https://github.com/friendly/colorize)
