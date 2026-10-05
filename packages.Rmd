@@ -12,7 +12,8 @@ knitr::opts_chunk$set(echo = FALSE)
 pkgs <- c("heplots", "candisc", "mvinfluence", "genridge", "VisCollin",
           "matlib", "gellipsoid", "twoway",
           "vcdExtra", "nestedLogit", "ggmosaic2", "ggfourfold",  # "vcd",
-          "HistData", "Guerry", "Lahman", "statquotes", "ggCheysson", "colorize" )
+          "HistData", "Guerry", "Lahman", "statquotes", "CASIdata",
+          "ggCheysson", "colorize" )
 
 desc <- function(package) {
   packageDescription(package)$Description
@@ -191,6 +192,14 @@ cat(desc("Lahman"))
 cat(desc("statquotes"))
 ```
 **Documentation**: [https://friendly.github.io/statquotes/](https://friendly.github.io/statquotes/)
+
+### [CASIdata](https://github.com/friendly/CASIdata)
+
+[<img src='https://raw.githubusercontent.com/friendly/CASIdata/main/man/figures/logo.jpg' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/CASIdata)
+```{r CASIdata-desc, results='asis'}
+cat(desc("CASIdata"))
+```
+**Documentation**: [friendly.github.io/CASIdata](https://friendly.github.io/CASIdata/)
 
 ## 🎨 Graphics {#GRAPHICS}
 

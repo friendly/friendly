@@ -258,6 +258,15 @@ word cloud. The output is designed to be suitable for use at the
 console, in Rmarkdown and LaTeX. **Documentation**:
 <https://friendly.github.io/statquotes/>
 
+### [CASIdata](https://github.com/friendly/CASIdata)
+
+[<img src='https://raw.githubusercontent.com/friendly/CASIdata/main/man/figures/logo.jpg' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/CASIdata)
+Provides the datasets from Efron & Hastie (2016, ISBN: 9781108107952),
+“Computer Age Statistical Inference: Algorithms, Evidence, and Data
+Science”, in an accessible R format for those who want to use them for
+study or to try to reproduce analyses from the book. **Documentation**:
+[friendly.github.io/CASIdata](https://friendly.github.io/CASIdata/)
+
 ## 🎨 Graphics
 
 ### [ggCheysson](https://github.com/friendly/ggCheysson)
