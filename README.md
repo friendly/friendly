@@ -73,9 +73,11 @@ See: [packages](packages.md) for some descriptions and links to documentation.
   + Two-way tables a la Tukey: [twoway](https://github.com/friendly/twoway)
 
 - **Categorical data analysis:** 
-  + Extensions of the [vcd](https://cran.r-project.org/package=vcd) package: [vcdExtra](https://github.com/friendly/heplots). 
+  + Extensions of the [vcd](https://cran.r-project.org/package=vcd) package: [vcdExtra](https://github.com/friendly/vcdExtra). 
   + See also my course: [Psy6136: Categorical Data Analysis](https://friendly.github.io/psy6136/)
   +  Nested dichotomies logistic regression: The [nestedLogit](https://github.com/friendly/nestedLogit) package fits often simpler models for polytomous (multi-category) response date than multinomial models.
+  + Mosaic plots in the ggplot2 framework, extended to show fitted loglinear models: [ggmosaic2](https://github.com/friendly/ggmosaic2)
+  + Fourfold displays of 2 x 2 (x k) tables for ggplot2: [ggfourfold](https://github.com/gklorfine/ggfourfold) (with Gavin Klorfine)
 
 - **Data:** 
   + Datasets in the history of statistics: [HistData](https://github.com/friendly/HistData)
