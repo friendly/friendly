@@ -6,7 +6,7 @@ have contributed to. The hex icons link to the GitHub repositories.
 Links to the package **Documentation** are also provided.
 
 Topics: [Multivariate linear models](#MLM) \|\| [Categorical data
-analysis](#CDA) \|\| [Data](#DATA)
+analysis](#CDA) \|\| [Data](#DATA) \|\| [Graphics](#GRAPHICS)
 
 ## ✨ Multivariate linear models
 
@@ -128,9 +128,9 @@ Understanding Statistical Methods Through Elliptical Geometry
 Carries out analyses of two-way tables with one observation per cell,
 together with graphical displays for an additive fit and a diagnostic
 plot for removable ‘non-additivity’ via a power transformation of the
-response. It implements Tukey’s Exploratory Data Analysis (1973) \<ISBN:
-978-0201076165\> methods, including a 1-degree-of-freedom test for
-row\*column ‘non-additivity’, linear in the row and column effects.
+response. It implements methods from Tukey’s Exploratory Data Analysis
+(1973) \<ISBN: 978-0201076165\>, including a 1-degree-of-freedom test
+for row\*column ‘non-additivity’, linear in the row and column effects.
 **Documentation**:
 [friendly.github.io/twoway](https://friendly.github.io/twoway)
 
@@ -159,9 +159,13 @@ for Generalized Nonlinear Models. In particular, ‘vcdExtra’ extends
 mosaic, assoc and sieve plots from ‘vcd’ to handle ‘glm()’ and ‘gnm()’
 models and adds a 3D version in ‘mosaic3d’. Additionally, methods are
 provided for comparing and visualizing lists of ‘glm’ and ‘loglm’
-objects. This package is now a support package for the book, “Discrete
-Data Analysis with R” by Michael Friendly and David Meyer.
-**Documentation**:
+objects. This package is now a support package for the book Friendly, M.
+and Meyer, D. (2016, <ISBN:978-1-4987-2583-5>) ‘Discrete Data Analysis
+with R: Visualization and Modeling Techniques for Categorical and Count
+Data’. Recent work adds colorized tables of frequencies to highlight
+patterns of association, association graphs to visualize conditional
+independence and a variety of new or improved statistical tests for
+categorical data analysis. **Documentation**:
 [friendly.github.io/vcdExtra](http://friendly.github.io/vcdExtra/)
 
 ### [nestedLogit](https://github.com/friendly/nestedLogit)
@@ -179,6 +183,29 @@ Analysis and Generalized Linear Models”, 3rd Ed., ISBN 1452205663.
 **Documentation**:
 [friendly.github.io/nestedLogit](https://friendly.github.io/nestedLogit/)
 
+### [ggmosaic2](https://github.com/friendly/ggmosaic2)
+
+[<img src='https://raw.githubusercontent.com/friendly/ggmosaic2/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/ggmosaic2)
+Mosaic plots in the ‘ggplot2’ framework. Mosaic plot functionality is
+provided in a single ‘ggplot2’ layer by calling the geom ‘mosaic’. This
+extends the now-defunct ‘ggmosaic’ package by allowing fitted loglinear
+models which can be used to show patterns of association among variables
+in frequency tables. **Documentation**:
+[friendly.github.io/ggmosaic2](https://friendly.github.io/ggmosaic2/)
+
+### [ggfourfold](https://github.com/gklorfine/ggfourfold)
+
+[<img src='https://raw.githubusercontent.com/gklorfine/ggfourfold/main/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/gklorfine/ggfourfold)
+Draws fourfold displays of 2 x 2 (x k) contingency tables as a ‘ggplot2’
+layer, following Friendly (1994)
+<https://datavis.ca/papers/4fold/4fold.pdf> and Friendly and Meyer
+(2016) <doi:10.1201/9781315374413>. Cell frequencies are shown as
+quarter-circles or squares of proportional area, with confidence rings
+for the odds ratio and shading for the direction and strength of
+association. Stratified tables are shown with ‘ggplot2’ faceting and a
+corresponding ‘ggplot2’ theme is provided. **Documentation**:
+[gavinklorfine.com/ggfourfold](https://gavinklorfine.com/ggfourfold/)
+
 ## 🗃️ Data
 
 ### [HistData](https://github.com/friendly/HistData)
@@ -194,9 +221,10 @@ interesting challenges for graphics or analysis in R. **Documentation**:
 ### [Guerry](https://github.com/friendly/Guerry)
 
 [<img src='https://raw.githubusercontent.com/friendly/Guerry/master/man/figures/Guerry-logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/Guerry)
-Maps of France in 1830, multivariate datasets from A.-M. Guerry and
-others, and statistical and graphic methods related to Guerry’s “Moral
-Statistics of France”. The goal is to facilitate the exploration and
+Contains maps of France in 1830 and multivariate datasets from A.-M.
+Guerry and others. Statistical and graphic methods related to Guerry’s
+“Moral Statistics of France” are used to understand Guerry’s data and
+illustrate methods. The goal is to facilitate the exploration and
 development of statistical and graphic methods for multivariate data in
 a geospatial context of historical interest. **Documentation**:
 <https://friendly.github.io/Guerry>
@@ -230,10 +258,24 @@ word cloud. The output is designed to be suitable for use at the
 console, in Rmarkdown and LaTeX. **Documentation**:
 <https://friendly.github.io/statquotes/>
 
+## 🎨 Graphics
+
 ### [ggCheysson](https://github.com/friendly/ggCheysson)
 
 [<img src='https://raw.githubusercontent.com/friendly/ggCheysson/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/ggCheysson)
-Implements stylistic elements (fonts, hachure patterns, color palettes)
-used by ‘Emile Cheysson’ in the ‘Albums de Statistique Graphique’,
-sometimes called the pinacle of the Golden Age of Statistical Graphics.
-**Documentation**: <https://friendly.github.io/ggCheysson/>
+Implements for ‘ggplot2’ the stylistic elements (fonts, hatched
+patterns, color palettes) used by ‘Emile Cheysson’ in the ‘Albums de
+Statistique Graphique’, sometimes called the pinnacle of the Golden Age
+of Statistical Graphics. **Documentation**:
+[friendly.github.io/ggCheysson](https://friendly.github.io/ggCheysson/)
+
+### [colorize](https://github.com/friendly/colorize)
+
+[<img src='https://raw.githubusercontent.com/friendly/colorize/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/colorize)
+Provides some simple functions for printing text in color in ‘markdown’
+or ‘Quarto’ documents, to be rendered as HTML or LaTeX. This is useful
+when writing about the use of colors in graphs or tables, where you want
+to print their names in their actual color to give a direct impression
+of the color, like “red” shown in red, or “blue” shown in blue.
+**Documentation**:
+[friendly.github.io/colorize](https://friendly.github.io/colorize/)

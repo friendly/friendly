@@ -11,8 +11,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r packages}
 pkgs <- c("heplots", "candisc", "mvinfluence", "genridge", "VisCollin",
           "matlib", "gellipsoid", "twoway",
-          "vcdExtra", "nestedLogit",  # "vcd",
-          "HistData", "Guerry", "Lahman", "statquotes", "ggCheysson" )
+          "vcdExtra", "nestedLogit", "ggmosaic2", "ggfourfold",  # "vcd",
+          "HistData", "Guerry", "Lahman", "statquotes", "ggCheysson", "colorize" )
 
 desc <- function(package) {
   packageDescription(package)$Description
@@ -24,7 +24,7 @@ This page provides overview descriptions of my R packages and those I have contr
 The hex icons link to the GitHub repositories. Links to the package **Documentation** are
 also provided.
 
-Topics: [Multivariate linear models](#MLM) || [Categorical data analysis](#CDA) || [Data](#DATA)
+Topics: [Multivariate linear models](#MLM) || [Categorical data analysis](#CDA) || [Data](#DATA) || [Graphics](#GRAPHICS)
 
 ## ✨ Multivariate linear models {#MLM}
 
@@ -132,6 +132,22 @@ cat(desc("nestedLogit"))
 ```
 **Documentation**: [friendly.github.io/nestedLogit](https://friendly.github.io/nestedLogit/)
 
+### [ggmosaic2](https://github.com/friendly/ggmosaic2)
+
+[<img src='https://raw.githubusercontent.com/friendly/ggmosaic2/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/ggmosaic2)
+```{r ggmosaic2-desc, results='asis'}
+cat(desc("ggmosaic2"))
+```
+**Documentation**: [friendly.github.io/ggmosaic2](https://friendly.github.io/ggmosaic2/)
+
+### [ggfourfold](https://github.com/gklorfine/ggfourfold)
+
+[<img src='https://raw.githubusercontent.com/gklorfine/ggfourfold/main/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/gklorfine/ggfourfold)
+```{r ggfourfold-desc, results='asis'}
+cat(desc("ggfourfold"))
+```
+**Documentation**: [gavinklorfine.com/ggfourfold](https://gavinklorfine.com/ggfourfold/)
+
 ## 🗃️  Data {#DATA}
 
 ### [HistData](https://github.com/friendly/HistData)
@@ -176,12 +192,21 @@ cat(desc("statquotes"))
 ```
 **Documentation**: [https://friendly.github.io/statquotes/](https://friendly.github.io/statquotes/)
 
+## 🎨 Graphics {#GRAPHICS}
+
 ### [ggCheysson](https://github.com/friendly/ggCheysson)
 
 [<img src='https://raw.githubusercontent.com/friendly/ggCheysson/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/ggCheysson)
 ```{r ggCheysson-desc, results='asis'}
 cat(desc("ggCheysson"))
 ```
-**Documentation**: [https://friendly.github.io/ggCheysson/](https://friendly.github.io/ggCheysson/)
+**Documentation**: [friendly.github.io/ggCheysson](https://friendly.github.io/ggCheysson/)
 
+### [colorize](https://github.com/friendly/colorize)
+
+[<img src='https://raw.githubusercontent.com/friendly/colorize/master/man/figures/logo.png' height='120' align='left' style="padding:'20px'">](https://github.com/friendly/colorize)
+```{r colorize-desc, results='asis'}
+cat(desc("colorize"))
+```
+**Documentation**: [friendly.github.io/colorize](https://friendly.github.io/colorize/)
 
